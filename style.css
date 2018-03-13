@@ -71,18 +71,16 @@ body {
 /* Position buttons in bottom of square */
 .wrapper {
   position: absolute;
-  top: 88.5%;
-  left: 50%;  
+  top: 92%;
+  left: 53%;  
   transform: translate(-50%, -50%);
   width: 30vw;
   font-size: .8vw;
-  border: 3px solid red;
 }
 
 /* Style the Un-order list by setting its list-style to none */
 .wrapper ul {
   list-style: none;
-  border: 3px solid blue;
 }
 
 /* Style the list items inside the UL list, by setting its width, height and line-height 
@@ -151,7 +149,25 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 1600px){
+  .wrapper {
+      width: 30vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 1240px){
+  .wrapper {
+      width: 35vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 840px){
   .wrapper {
       width: 40vw;
   }
@@ -160,9 +176,22 @@ to align it properly */
   }
 }
 
-@media screen and (max-width: 340px){
+@media screen and (max-width: 640px){
   .wrapper {
-      width: 70vw;
+      width: 40vw;
+      top: 34.5vw;
+      left: 13vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 440px){
+  .wrapper {
+      width: 45vw;
+      top: 34.5vw;
+      left: 13vw;
   }
   .wrapper ul li{
       margin: 0 10%;
