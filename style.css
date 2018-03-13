@@ -180,7 +180,18 @@ to align it properly */
   .wrapper {
       width: 40vw;
       top: 34.5vw;
-      left: 13vw;
+      left: 15vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .wrapper {
+      width: 40vw;
+      top: 34.5vw;
+      left: 13.5vw;
   }
   .wrapper ul li{
       margin-top: 0 10%;
@@ -198,4 +209,6 @@ to align it properly */
   }
 }
 
-
+#particles-js {
+	height: 10%;
+}
