@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 html {
 	height: 100%;
 	font-size: 62.5%;
@@ -34,9 +37,9 @@ body {
 
 .content {
 	position: absolute;
-    height: 99%; /* = 100% - 2*10% padding */
-    width: 90%; /* = 100% - 2*5% padding */
-    padding: .5% 5%; /* change height change width */
+    height: 90%; /* = 100% - 2*10% padding */
+    width: 100%; /* = 100% - 2*5% padding */
+    padding: 2% 5%; /* change height change width */
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -69,30 +72,27 @@ body {
 .wrapper {
   position: absolute;
   top: 88.5%;
-  left: 45%;
+  left: 50%;  
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 30vw;
+  font-size: .8vw;
+  border: 3px solid red;
 }
 
 /* Style the Un-order list by setting its list-style to none */
 .wrapper ul {
   list-style: none;
+  border: 3px solid blue;
 }
-
-/*.wrapper ul li {
-	display: inline;
-	margin: 0;
-	padding: 0;
-}*/
 
 /* Style the list items inside the UL list, by setting its width, height and line-height 
   and float them to left and set its border and border-radius.
  */
-.wrapper ul li {
-  width: 2.4vw;
-  height: 2.4vw;
-  line-height: 3vw;
-  margin: 0 10%;
+ .wrapper ul li {
+  width: 2.4vw; /* adjust width of icon circle */
+  height: 2.4vw; /* adjust height of icon circle */
+  line-height: .1vw; /* move icon image up and down */
+  margin: 0% 10%;
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
@@ -110,67 +110,63 @@ to align it properly */
   color: #D8E2DC;
   margin-top: .33vw;
   transition: all 0.5s ease;
-}
+} 
 
 /* instagram */
 .wrapper ul li:hover.instagram {
-  border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2a8d;
+  border: 2px solid #E705C5;
+  box-shadow: 0 0 5px #E705C5;
   transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-instagram {
-  color: #bc2a8d;
-  text-shadow: 0 0 15px #bc2a8d;
+  color: #E705C5;
+  text-shadow: 0 0 5px #E705C5;
   transition: all 0.5s ease;
 }
 
 /* github */
 .wrapper ul li:hover.github {
-  border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2a8d;
+  border: 2px solid #9E9E9E;
+  box-shadow: 0 0 5px #9E9E9E;
   transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-github {
-  color: #bc2a8d;
-  text-shadow: 0 0 15px #bc2a8d;
+  color: #9E9E9E;
+  text-shadow: 0 0 5px #9E9E9E;
   transition: all 0.5s ease;
 }
 
 /* linkedin */
 .wrapper ul li:hover.linkedin {
-  border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2a8d;
+  border: 2px solid #0FACF1;
+  box-shadow: 0 0 5px #0FACF1;
   transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-linkedin {
-  color: #bc2a8d;
-  text-shadow: 0 0 15px #bc2a8d;
+  color: #0FACF1;
+  text-shadow: 0 0 5px #0FACF1;
   transition: all 0.5s ease;
 }
 
-/*@media screen and (max-width: 640px){
+@media screen and (max-width: 640px){
   .wrapper {
-      width: 350px;
+      width: 40vw;
   }
   .wrapper ul li{
-      margin-top: 10px;
-  }
-  .wrapper ul li.google{
-      margin-left: 60px;
+      margin-top: 0 10%;
   }
 }
 
 @media screen and (max-width: 340px){
   .wrapper {
-      width: 150px;
+      width: 70vw;
   }
   .wrapper ul li{
-      margin:15px;
+      margin: 0 10%;
   }
-  .wrapper ul li.google{
-      margin-left: 15px;
-  }
-}*/
+}
+
+
