@@ -27,11 +27,11 @@ Packages/frameworks needed to run on local machine:
 
 I use a Mac so the following resources for installation will be Mac specific but the same idea can be applied for Windows.
 
-**1**
+**1.**
 
 I used [Homebrew](https://brew.sh/) to manage all my installations on my Mac machine. 
 
-**2**
+**2.**
 
 Installing [Node.js/NPM using Homebrew](http://blog.teamtreehouse.com/install-node-js-npm-mac):
 Type the following in your terminal.
@@ -46,7 +46,7 @@ node -v
 ```
 npm -v
 ```
-**3**
+**3.**
 
 I also used [VincentGarreau's](https://github.com/VincentGarreau/particles.js/) >lightweight JavaScript library for creating particles.
 
