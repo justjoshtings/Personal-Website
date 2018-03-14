@@ -50,4 +50,4 @@ Coming soon!
 
 ## Acknowledgments
 
-I do not own any code or frameworks that was used. Hat tip to anyone who's code was used.
+I do not own any code or frameworks that was used. Hat tip to anyone whose code was used.
