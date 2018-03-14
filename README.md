@@ -1,5 +1,7 @@
 # Personal Website
 
+## About
+
 This contains all the resources and code for my personal portfolio website. The result is a fairly minimalistic and responsive personal website aimed to be both visually appealing and functional. This is the first real website that I have built from scratch all the way to deployment. There are definitely areas in my code that could be made more efficient (feel free to let me know). 
 
 ![Example Screenshot](images/screenshot.jpg)
