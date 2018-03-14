@@ -33,7 +33,7 @@ body {
 	border-radius: 5px;
 	background-color: white;
 	z-index: 2;
-	
+	opacity: 0.92;
 }
 
 .content {
