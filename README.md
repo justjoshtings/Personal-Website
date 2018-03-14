@@ -2,20 +2,24 @@
 
 This contains all the resources and code for my personal portfolio website. The result is a fairly minimalistic and responsive personal website aimed to be both visually appealing and functional. This is the first real website that I have built from scratch all the way to deployment. There are definitely areas in my code that could be made more efficient (feel free to let me know). 
 
+![Example Screenshot](images/screenshot.jpg)
+
 ## Getting Started
 
-This website utilizes fairly standard HTML5, CSS3, and JavaScript languages. 
+This website utilizes fairly standard **HTML5**, **CSS3**, and **JavaScript** languages. 
+
 Packages/frameworks needed to run on local machine:
 ```
-Node.js
-NPM
-particles.js
-npmjs
+- Node.js
+- NPM
+- particles.js
+- npmjs
 ```
 
 ### Installing
 
-If you already have Node.js / NPM installed, you can skip this section.
+**If you already have Node.js / NPM installed, you can skip this section.**
+
 I used [Homebrew](https://brew.sh/) to manage all my installations on my Mac machine. 
 
 Installing [Node.js/NPM using Homebrew](http://blog.teamtreehouse.com/install-node-js-npm-mac):
@@ -31,8 +35,9 @@ node -v
 ```
 npm -v
 ```
-I also used [VincentGarreau's lightweight JavaScript library for creating particles](https://github.com/VincentGarreau/particles.js/).
-In order to see this library in action on your browser, a live server will need to be running on your machine. I used a temporary live server using [npmjs](https://www.npmjs.com/package/live-server).
+I also used [VincentGarreau's](https://github.com/VincentGarreau/particles.js/) >lightweight JavaScript library for creating particles.
+
+In order to see this library in action on your browser, a live server will need to be running on your machine. I used a temporary live server with [npmjs](https://www.npmjs.com/package/live-server).
 
 Installing npmjs globally:
 Type the following in your terminal.
@@ -50,4 +55,4 @@ Coming soon!
 
 ## Acknowledgments
 
-I do not own any code or frameworks that was used. Hat tip to anyone whose code was used.
+I must tip my hat off to owners of any code, frameworks, media used that I do not own.
