@@ -212,8 +212,7 @@ to align it properly */
 
 #particles-js {
 	position: absolute;
-	height: 100vw;
-	width: 100vw;
-	bottom: 0.0001vw;
+	height: 100%;
+	width: 100%;
 	z-index: 0;
 }
