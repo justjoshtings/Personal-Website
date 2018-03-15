@@ -8,7 +8,7 @@
 	<meta name = "description" content = "Test Website"> <!--Website meata description-->
 	<meta name = "keywords" content = "blog,portfolio,test">
 	<link rel="canonical" href="https://www.joshting.com">
-	<title>Josh Ting</title>
+	<title>Joshua Ting</title>
 	<link rel="icon" type="image/x-icon" href="images\jtlogo.ico"> <!--Tab Icon-->
 	<!-- <link rel="author" .... -->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -16,43 +16,52 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> <!--fonts-->
 </head>	
 <body>
-	<div id="particles-js"></div>
-	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-	<noscript>Sorry, your browswer does not support JavaScript</noscript>
-	<script>
-		particlesJS.load('particles-js', 'particles.json', function(){
-			console.log('particles.json loaded...');
-		});
-	</script>
-	<noscript>Sorry, your browswer does not support JavaScript</noscript>
-	<script src="script.js"></script>
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closenav" onclick="closeNav()">&times;</a>
-		<a href="#">Home</a>
-		<a href="#">About</a>
-		<a href="#">Resume</a>
-		<a href="#">Portfolio</a>
-		<a href="#">Contact</a>
+	<div class="wrapper-background">
+
+		<span class="nav-button" style="font-size:3vw;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+		<div id="side-menu" class="side-nav">
+			<a href="#" class="btn-close" onclick="closeNav()">&times;</a>
+			<a href="#" class="nav-links">Home</a>
+			<a href="#" class="nav-links">About</a>
+			<a href="#" class="nav-links">Portfolio</a>
+			<a href="#" class="nav-links">Contact</a>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+		<noscript>Sorry, your browswer does not support JavaScript</noscript>
+
+		<div id="particles-js"></div>
+		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+		<noscript>Sorry, your browswer does not support JavaScript</noscript>
+		<script>
+			particlesJS.load('particles-js', 'particles.json', function(){
+				console.log('particles.json loaded...');
+			});
+		</script>
+		<noscript>Sorry, your browswer does not support JavaScript</noscript>
+
+		<div class="square">
+			<div>
+				<img src="images/beach_comp.jpg" alt="center pic" class="centimg">
+			</div>
+			<div class="content">
+				<h3 class="name">Joshua Ting</h3>
+				<p class="title">Mechanical Engineer<br>Coding Enthusiast</p>
+			</div>
+			<div class="wrapper">
+			  <ul>
+			  	<a href="https://github.com/justjoshtings"><li class="github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></li></a>
+			    <a href="https://www.linkedin.com/in/joshua-ting-222759118/"><li class="linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></li></a>
+			    <a href="https://www.instagram.com/justjoshtings/"><li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li></a>
+			  </ul>
+			</div>
+		</div>
+
 	</div>
-	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-	<div class="square">
-		<div>
-			<img src="images/beach_comp.jpg" alt="center pic" class="centimg">
-		</div>
-		<div class="content">
-			<h3 class="name">Joshua Ting</h3>
-			<p class="title">Mechanical Engineer<br>Coding Enthusiast</p>
-		</div>
-		<div class="wrapper">
-		  <ul>
-		  	<a href="https://github.com/justjoshtings"><li class="github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></li></a>
-		    <a href="https://www.linkedin.com/in/joshua-ting-222759118/"><li class="linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></li></a>
-		    <a href="https://www.instagram.com/justjoshtings/"><li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li></a>
-		  </ul>
-		</div>
-	</div>
+	
 </body>
 <footer>
 	<div class="footer"></div>
 </footer>
 </html>
+

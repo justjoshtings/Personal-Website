@@ -6,16 +6,29 @@ html {
 	font-size: 62.5%;
 }
 body {
-    /* The image used */
+	margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.wrapper-background {
+	/* The image used */
     background-image: url("images/pic04_comp.jpg");
 
     /* Full height */
     height: 100%; 
+    width: 100%;
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    overflow: scroll;
 }
 
 .square {
@@ -214,5 +227,51 @@ to align it properly */
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	z-index: 0;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.nav-button {
+	padding-left: .3vw;
+	padding-top: .3vw;
+	margin: 1vw 1vw;
+	z-index: 3;
+}
+
+.side-nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	left: 0;	
+	background-color: #FDFDFD;
+	opacity: 0.9;
+	overflow-x: hidden;
+	padding-top: .5vw;
+	transition: 0.8s;
+
+}
+
+.side-nav a {
+	padding: 0vw 1vw 2vw 3.8vw;
+	text-decoration: none;
+	font-size: 2vw;
+	color: #000;
+	display: block;
+	transition: 0.3s;
+	top: .25vw;
+
+}
+
+.side-nav a:hover {
+	color: #fff;
+}
+
+.side-nav .btn-close {
+	position: relative;
+	top: 0.1vw;
+	left: 9vw;
+	font-size: 2.5vw;
+	margin-left: .1vw;
 }

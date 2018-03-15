@@ -1,8 +1,8 @@
 function openNav() {
-	document.getElementById('mySidenav').style.width = "100px";
+	document.getElementById('side-menu').style.width = "16vw";
 }
 
 function closeNav() {
-	document.getElementById('mySidenav').style.width = '0px';
+	document.getElementById('side-menu').style.width = '0';
 }
 
