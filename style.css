@@ -214,5 +214,6 @@ to align it properly */
 	position: absolute;
 	height: 100vw;
 	width: 100vw;
+	bottom: 0.0001vw;
 	z-index: 0;
 }
