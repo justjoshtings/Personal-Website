@@ -39,7 +39,7 @@ body {
 	position: relative;
 	margin: auto;
 	overflow: hidden;
-	top: 8%;
+	top: 4%;
 	
 	/* Border */
 	border: 1px;
@@ -163,145 +163,7 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-@media screen and (max-width: 1600px){
-  .wrapper {
-      width: 30vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
 
-@media screen and (max-width: 1370px){
-  .wrapper {
-      width: 30vw;
-      left: 15.4vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-
-@media screen and (max-width: 1240px){
-  .wrapper {
-      width: 35vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-@media screen and (max-width: 1000px){
-  .wrapper {
-      width: 40vw;
-      left: 16vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-@media screen and (max-width: 840px){
-  .wrapper {
-      width: 40vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-@media screen and (max-width: 640px){
-  .wrapper {
-      width: 40vw;
-      top: 34.5vw;
-      left: 14vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-@media screen and (max-width: 540px){
-  .wrapper {
-      width: 40vw;
-      top: 34.5vw;
-      left: 13.5vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-@media screen and (max-width: 440px){
-  .wrapper {
-      width: 45vw;
-      top: 34.5vw;
-      left: 12vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-  .footer {
-  	height: 10vw;
-  }
-}
-
-@media screen and (max-width: 390px){
-  .wrapper {
-      width: 45vw;
-      top: 35vw;
-      left: 13.2vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-  .footer {
-  	height: 10vw;
-  }
-}
-
-@media screen and (max-width: 315px){
-  .wrapper {
-      width: 45vw;
-      top: 35vw;
-      left: 11vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-  .footer {
-  	height: 10vw;
-  }
-}
-
-@media screen and (max-width: 205px){
-  .wrapper {
-      width: 45vw;
-      top: 35vw;
-      left: 6.9vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-  .footer {
-  	height: 10vw;
-  }
-}
-
-@media screen and (max-width: 175px){
-  .wrapper {
-      width: 45vw;
-      top: 35vw;
-      left: 4.5vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-  .footer {
-  	height: 10vw;
-  }
-}
 
 #particles-js {
 	position: absolute;
@@ -375,4 +237,131 @@ to align it properly */
 	font-weight: bolder;
 	padding: 0.8% 0 0.8% 0;
 	font-size: 1vw;
+}
+
+@media screen and (max-width: 1600px){
+  .wrapper {
+      width: 30vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+
+@media screen and (max-width: 1370px){
+  .wrapper {
+      width: 30vw;
+      left: 15.4vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+
+@media screen and (max-width: 1240px){
+  .wrapper {
+      width: 35vw;
+      left: 16.5vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .wrapper {
+      width: 40vw;
+      left: 16vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 840px){
+  .wrapper {
+      width: 40vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .wrapper {
+      width: 40vw;
+      top: 34.5vw;
+      left: 14vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .wrapper {
+      width: 40vw;
+      top: 34.5vw;
+      left: 13.5vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 440px){
+  .wrapper {
+      width: 45vw;
+      top: 34.5vw;
+      left: 12vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .wrapper {
+      width: 45vw;
+      top: 35vw;
+      left: 13.2vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 315px){
+  .wrapper {
+      width: 45vw;
+      top: 35vw;
+      left: 11vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 205px){
+  .wrapper {
+      width: 45vw;
+      top: 35vw;
+      left: 6.9vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 175px){
+  .wrapper {
+      width: 45vw;
+      top: 35vw;
+      left: 4.5vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
 }
