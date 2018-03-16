@@ -221,6 +221,9 @@ to align it properly */
   .wrapper ul li{
       margin: 0 10%;
   }
+  .footer {
+  	height: 10vw;
+  }
 }
 
 #particles-js {
@@ -235,14 +238,14 @@ to align it properly */
 	padding-left: .3vw;
 	padding-top: .3vw;
 	margin: 1vw 1vw;
-	z-index: 3;
+	z-index: 4;
 }
 
 .side-nav {
 	height: 100%;
 	width: 0;
 	position: fixed;
-	z-index: 3;
+	z-index: 4;
 	top: 0;
 	left: 0;	
 	background-color: #FDFDFD;
@@ -274,4 +277,17 @@ to align it properly */
 	left: 9vw;
 	font-size: 2.5vw;
 	margin-left: .1vw;
+}
+
+.footer {
+	z-index: 3;
+	width: 100%;
+	background-color: #fff;
+	height: 3vw;
+	bottom: 0;
+	text-align: center;
+	position: fixed;
+	overflow: hidden;
+	opacity: 0.9;
+
 }
