@@ -86,7 +86,7 @@ body {
 .wrapper {
   position: absolute;
   top: 92%;
-  left: 53%;  
+  left: 51%;  
   transform: translate(-50%, -50%);
   width: 30vw;
   font-size: .8vw;
@@ -172,9 +172,30 @@ to align it properly */
   }
 }
 
+@media screen and (max-width: 1370px){
+  .wrapper {
+      width: 30vw;
+      left: 15.4vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+
 @media screen and (max-width: 1240px){
   .wrapper {
       width: 35vw;
+  }
+  .wrapper ul li{
+      margin-top: 0 10%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .wrapper {
+      width: 40vw;
+      left: 16vw;
   }
   .wrapper ul li{
       margin-top: 0 10%;
@@ -194,7 +215,7 @@ to align it properly */
   .wrapper {
       width: 40vw;
       top: 34.5vw;
-      left: 15vw;
+      left: 14vw;
   }
   .wrapper ul li{
       margin-top: 0 10%;
@@ -216,7 +237,63 @@ to align it properly */
   .wrapper {
       width: 45vw;
       top: 34.5vw;
-      left: 13vw;
+      left: 12vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
+  .footer {
+  	height: 10vw;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .wrapper {
+      width: 45vw;
+      top: 35vw;
+      left: 13.2vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
+  .footer {
+  	height: 10vw;
+  }
+}
+
+@media screen and (max-width: 315px){
+  .wrapper {
+      width: 45vw;
+      top: 35vw;
+      left: 11vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
+  .footer {
+  	height: 10vw;
+  }
+}
+
+@media screen and (max-width: 205px){
+  .wrapper {
+      width: 45vw;
+      top: 35vw;
+      left: 6.9vw;
+  }
+  .wrapper ul li{
+      margin: 0 10%;
+  }
+  .footer {
+  	height: 10vw;
+  }
+}
+
+@media screen and (max-width: 175px){
+  .wrapper {
+      width: 45vw;
+      top: 35vw;
+      left: 4.5vw;
   }
   .wrapper ul li{
       margin: 0 10%;
@@ -280,14 +357,22 @@ to align it properly */
 }
 
 .footer {
-	z-index: 3;
+	z-index: 1;
 	width: 100%;
-	background-color: #fff;
-	height: 3vw;
-	bottom: 0;
+	background-color: #F9F9F9;
+	height: 4vw;
+	bottom: 0vw;
+	/*top: 80vw;*/
 	text-align: center;
 	position: fixed;
 	overflow: hidden;
 	opacity: 0.9;
 
+}
+
+.footer p {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-weight: bolder;
+	padding: 0.8% 0 0.8% 0;
+	font-size: 1vw;
 }
