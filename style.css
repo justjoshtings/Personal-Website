@@ -164,7 +164,6 @@ to align it properly */
 }
 
 
-
 #particles-js {
 	position: absolute;
 	height: 100%;
@@ -178,6 +177,7 @@ to align it properly */
 	padding-top: .3vw;
 	margin: 1vw 1vw;
 	z-index: 4;
+	font-size: 3vw;
 }
 
 .side-nav {
@@ -301,17 +301,55 @@ to align it properly */
 }
 
 @media screen and (max-width: 540px){
-  .wrapper {
-      width: 40vw;
-      top: 34.5vw;
-      left: 13.5vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
+	.wrapper {
+		width: 40vw;
+		top: 34.5vw;
+		left: 13.5vw;
+	}
+	.wrapper ul li{
+		margin-top: 0 10%;
+	}
 }
 
-@media screen and (max-width: 440px){
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	.wrapper {
+		width: 50vw;
+		top: 62.5vw;
+		left: 20.5vw;
+	}
+	.wrapper ul li{
+		margin: 0 10%;
+		width: 4.75vw;
+		height: 4.75vw;
+	}
+	.wrapper {
+		font-size: 1.4vw;
+	}
+	.square {
+		/* Responsive Square */
+		height: 0;
+		width: 50%;
+		padding-bottom: 69%; /* change height of box */
+	}
+	.name {
+		font-size: 4vw;
+		margin: 5%;
+		padding-top: 7%; 
+	}
+	.title {
+		font-size: 2.2vw;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-bottom: 13%;
+	}
+	.nav-button {
+		font-size: 6vw;
+	}
+}
+
+/*@media screen and (max-device-width: 450px){
   .wrapper {
       width: 45vw;
       top: 34.5vw;
@@ -320,9 +358,12 @@ to align it properly */
   .wrapper ul li{
       margin: 0 10%;
   }
-}
+  .wrapper {
+  	font-size: .65vw;
+  }
+}*/
 
-@media screen and (max-width: 390px){
+/*@media screen and (max-width: 390px){
   .wrapper {
       width: 45vw;
       top: 35vw;
@@ -364,4 +405,4 @@ to align it properly */
   .wrapper ul li{
       margin: 0 10%;
   }
-}
+}*/
