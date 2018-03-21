@@ -187,7 +187,7 @@ to align it properly */
 	z-index: 4;
 	top: 0;
 	left: 0;	
-	background-color: #FDFDFD;
+	background-color: #F1F1F1;
 	opacity: 0.9;
 	overflow-x: hidden;
 	padding-top: .5vw;
@@ -196,7 +196,7 @@ to align it properly */
 }
 
 .side-nav a {
-	padding: 0vw 1vw 2vw 3.8vw;
+	padding: 0vw 1vw 2vw 4vw;
 	text-decoration: none;
 	font-size: 2vw;
 	color: #000;
@@ -221,22 +221,22 @@ to align it properly */
 .footer {
 	z-index: 1;
 	width: 100%;
-	background-color: #F9F9F9;
+	background-color: #F2F2F2;
 	height: 4vw;
 	bottom: 0vw;
 	/*top: 80vw;*/
 	text-align: center;
 	position: fixed;
 	overflow: hidden;
-	opacity: 0.9;
-
+	opacity: 0.8;
 }
 
 .footer p {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	font-weight: bolder;
+	font-weight: normal;
 	padding: 0.8% 0 0.8% 0;
 	font-size: 1vw;
+	color: #484848;
 }
 
 @media screen and (max-width: 1600px){
@@ -345,64 +345,19 @@ and (max-device-width : 667px) {
 		padding-bottom: 13%;
 	}
 	.nav-button {
-		font-size: 6vw;
+		font-size: 8vw;
+	}
+	.footer p {
+		font-weight: bold;
+	}
+	.side-nav .btn-close {
+		top: 0.2vw;
+		left: 10vw;
+		font-size: 3vw;
+		margin-left: .1vw;
+	}
+	.side-nav a {
+		top: 2vw;
 	}
 }
 
-/*@media screen and (max-device-width: 450px){
-  .wrapper {
-      width: 45vw;
-      top: 34.5vw;
-      left: 12vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-  .wrapper {
-  	font-size: .65vw;
-  }
-}*/
-
-/*@media screen and (max-width: 390px){
-  .wrapper {
-      width: 45vw;
-      top: 35vw;
-      left: 13.2vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-}
-
-@media screen and (max-width: 315px){
-  .wrapper {
-      width: 45vw;
-      top: 35vw;
-      left: 11vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-}
-
-@media screen and (max-width: 205px){
-  .wrapper {
-      width: 45vw;
-      top: 35vw;
-      left: 6.9vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-}
-
-@media screen and (max-width: 175px){
-  .wrapper {
-      width: 45vw;
-      top: 35vw;
-      left: 4.5vw;
-  }
-  .wrapper ul li{
-      margin: 0 10%;
-  }
-}*/
