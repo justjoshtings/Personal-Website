@@ -8,6 +8,8 @@ This contains all the resources and code for my personal portfolio website. The 
 
 Example Screenshot of Program:
 ![Example Screenshot](images/screenshot.jpg)
+Updated:
+![Example Screenshot 2](images/screenshot02.jpg)
 
 ## Getting Started
 
