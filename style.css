@@ -86,8 +86,8 @@ body {
 .wrapper {
   position: absolute;
   top: 92%;
-  left: 51%;  
-  transform: translate(-50%, -50%);
+  left: 50%;  
+  transform: translate(-51%, -50%);
   width: 30vw;
   font-size: .8vw;
 }
@@ -101,8 +101,8 @@ body {
   and float them to left and set its border and border-radius.
  */
  .wrapper ul li {
-  width: 2.4vw; /* adjust width of icon circle */
-  height: 2.4vw; /* adjust height of icon circle */
+  width: 2.6vw; /* adjust width of icon circle */
+  height: 2.6vw; /* adjust height of icon circle */
   line-height: .1vw; /* move icon image up and down */
   margin: 0% 10%;
   text-align: center;
@@ -120,7 +120,7 @@ body {
 to align it properly */
 .wrapper ul li .fa {
   color: #D8E2DC;
-  margin-top: .33vw;
+  margin: .4vw auto;
   transition: all 0.5s ease;
 } 
 
@@ -192,39 +192,39 @@ to align it properly */
 	overflow-x: hidden;
 	padding-top: .5vw;
 	transition: 0.8s;
-
 }
 
 .side-nav a {
-	padding: 0vw 1vw 2vw 4vw;
+	padding: 0vw 1vw 2vw 2.4vw;
 	text-decoration: none;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	color: #000;
 	display: block;
 	transition: 0.3s;
 	top: .25vw;
-
+	margin: 0 0 2vw 0;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 .side-nav a:hover {
-	color: #fff;
+	color: #2BCFBB;
 }
 
 .side-nav .btn-close {
 	position: relative;
-	top: 0.1vw;
-	left: 9vw;
-	font-size: 2.5vw;
+	top: 0vw;
+	left: 10.5vw;
+	font-size: 3.5vw;
 	margin-left: .1vw;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 .footer {
 	z-index: 1;
 	width: 100%;
 	background-color: #FDFDFD;
-	height: 6vw;
+	height: 4.5vw;
 	bottom: 0vw;
-	/*top: 80vw;*/
 	text-align: center;
 	position: fixed;
 	overflow: hidden;
@@ -241,10 +241,10 @@ to align it properly */
 }*/
 
 .footer .mylogo {
-	width: 4vw;
-	height: 4vw;
+	width: 3vw;
+	height: 3vw;
 	margin: 0 auto;
-	top: 1.25vw;
+	top: 1vw;
 	position: relative;
 }
 
@@ -325,48 +325,65 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) {
 	.wrapper {
 		width: 50vw;
-		top: 62.5vw;
-		left: 20.5vw;
+		top: 68vw;
+		left: 25.8vw;
 	}
 	.wrapper ul li{
-		margin: 0 10%;
-		width: 4.75vw;
-		height: 4.75vw;
+		margin: 2% 9% 0 9%;
+		width: 6vw;
+		height: 6vw;
 	}
 	.wrapper {
-		font-size: 1.4vw;
+		font-size: 1.8vw;
+	}
+	.wrapper ul li .fa {
+		margin-top: .68vw;
 	}
 	.square {
 		/* Responsive Square */
 		height: 0;
-		width: 50%;
-		padding-bottom: 69%; /* change height of box */
+		width: 60%;
+		padding-bottom: 75%; /* change height of box */
 	}
 	.name {
-		font-size: 4vw;
-		margin: 5%;
-		padding-top: 7%; 
+		font-size: 6vw;
+		margin: 0 5% 0 5%;
+		padding-top: 3%;
+		padding-bottom: 0; 
 	}
 	.title {
-		font-size: 2.2vw;
+		font-size: 3vw;
 		margin-left: 10%;
 		margin-right: 10%;
-		padding-bottom: 13%;
+		padding-bottom: 5%;
 	}
 	.nav-button {
 		font-size: 8vw;
 	}
-	.footer p {
-		font-weight: bold;
+	.footer {
+		height: 12vw;
+	}
+	.footer .mylogo {
+		top: 2.25vw;
+		height: 8vw;
+		width: 8vw;
+	}
+	.side-nav {
+		transition: 0.4s;
 	}
 	.side-nav .btn-close {
 		top: 0.2vw;
-		left: 10vw;
-		font-size: 3vw;
+		left: 40vw;
+		font-size: 10vw;
 		margin-left: .1vw;
+		font-weight: bold;
 	}
 	.side-nav a {
 		top: 2vw;
+		font-size: 12vw;
+		text-align: center;
+		margin: 4vw 0 4vw 0;
+		font-weight: bold;
 	}
 }
 
