@@ -83,7 +83,7 @@ I used DigitalOcean's VPS to run Ubuntu 16.04. I then used the following to conf
 - Gunicorn
 - Supervisord
 ```
-DigitalOcean provides good server set up [guides](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04). They also have good guides on setting up [LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) and [MEAN.js](https://www.digitalocean.com/community/tutorials/how-to-install-a-mean-js-stack-on-an-ubuntu-14-04-server) stacks. These guides were great starting points to understand the basics before I dived more in depth into different set ups and configurations.
+DigitalOcean provides good server set up [guides](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04) on setting up a server serving Django apps. They also have good guides on setting up [LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) and [MEAN.js](https://www.digitalocean.com/community/tutorials/how-to-install-a-mean-js-stack-on-an-ubuntu-14-04-server) stacks. These guides were great starting points to understand the basics before I dived more in depth into different set ups and configurations.
 
 ## Acknowledgments
 
