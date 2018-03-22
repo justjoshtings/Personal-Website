@@ -44,7 +44,7 @@ body {
 	/* Border */
 	border: 1px;
 	border-radius: 5px;
-	background-color: white;
+	background-color: #FBFBFB;
 	z-index: 2;
 	opacity: 0.92;
 }
@@ -187,7 +187,7 @@ to align it properly */
 	z-index: 4;
 	top: 0;
 	left: 0;	
-	background-color: #F1F1F1;
+	background-color: #FDFDFD;
 	opacity: 0.9;
 	overflow-x: hidden;
 	padding-top: .5vw;
@@ -221,22 +221,31 @@ to align it properly */
 .footer {
 	z-index: 1;
 	width: 100%;
-	background-color: #F2F2F2;
-	height: 4vw;
+	background-color: #FDFDFD;
+	height: 6vw;
 	bottom: 0vw;
 	/*top: 80vw;*/
 	text-align: center;
 	position: fixed;
 	overflow: hidden;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
-.footer p {
+/*.footer p {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: normal;
-	padding: 0.8% 0 0.8% 0;
+	padding: 0.4% 0 0 0;
+	margin-bottom: 0;
 	font-size: 1vw;
 	color: #484848;
+}*/
+
+.footer .mylogo {
+	width: 4vw;
+	height: 4vw;
+	margin: 0 auto;
+	top: 1.25vw;
+	position: relative;
 }
 
 @media screen and (max-width: 1600px){
