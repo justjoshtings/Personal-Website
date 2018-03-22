@@ -384,6 +384,7 @@ and (max-device-width : 667px) {
 		text-align: center;
 		margin: 4vw 0 4vw 0;
 		font-weight: bold;
+		padding: 4vw 0;
 	}
 }
 
