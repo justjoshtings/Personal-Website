@@ -96,7 +96,7 @@ body {
   position: absolute;
   top: 92%;
   left: 50%;  
-  transform: translate(-51.5%, -50%);
+  transform: translate(-48%, -50%);
   width: 30vw;
   font-size: .8vw;
 }
@@ -239,14 +239,6 @@ to align it properly */
 	opacity: 0.9;
 }
 
-/*.footer p {
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	font-weight: normal;
-	padding: 0.4% 0 0 0;
-	margin-bottom: 0;
-	font-size: 1vw;
-	color: #484848;
-}*/
 
 .footer .mylogo {
 	width: 3vw;
@@ -276,8 +268,7 @@ to align it properly */
   }
 }
 
-
-@media screen and (max-width: 1240px){
+/*@media screen and (max-width: 1240px){
   .wrapper {
       width: 35vw;
       left: 16.5vw;
@@ -304,15 +295,108 @@ to align it properly */
   .wrapper ul li{
       margin-top: 0 10%;
   }
+}*/
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1440px) {
+	.wrapper {
+		left: 16vw;
+	}
+	.wrapper ul li{
+		margin: 0.5% 8% 0 8%;
+	}
 }
 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 767px) {
+and (min-device-width : 1440px) 
+and (max-device-width : 2560px) {
+	.wrapper {
+		left: 15vw;
+	}
+}
+
+@media only screen 
+and (min-device-width : 700px) 
+and (max-device-width : 1024px) {
+	.wrapper {
+		left: 13.9vw;
+	}
+}
+
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 330px) {
+	.wrapper {
+		left: 25vw;
+		top: 75vw;
+	}
+	.wrapper {
+		font-size: 1.5vw;
+	}
+	.wrapper ul li{
+		margin: 2% 1% 0 1%;
+		width: 5vw;
+		height: 5vw;
+	}
+	.square {
+		/* Responsive Square */
+		height: 0;
+		width: 65%;
+		padding-bottom: 85%; /* change height of box */
+	}
+	.name {
+		font-size: 6vw;
+		margin: 0 5% 0 5%;
+		padding-top: 3%;
+		padding-bottom: 0; 
+	}
+	.title {
+		font-size: 3vw;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-bottom: 5%;
+	}
+	.nav-button {
+		font-size: 8vw;
+	}
+	.footer {
+		height: 12vw;
+	}
+	.footer .mylogo {
+		top: 2.25vw;
+		height: 8vw;
+		width: 8vw;
+	}
+	.side-nav {
+		transition: 0.4s;
+	}
+	.side-nav .btn-close {
+		top: 0.2vw;
+		left: 40vw;
+		font-size: 10vw;
+		margin-left: .1vw;
+		font-weight: bold;
+	}
+	.side-nav a {
+		top: 2vw;
+		font-size: 12vw;
+		text-align: center;
+		margin: 4vw 0 4vw 0;
+		font-weight: bold;
+		padding: 4vw 0;
+	}
+}
+
+/*HAcKed By Mr Wednessday*/
+
+@media only screen 
+and (min-device-width : 330px) 
+and (max-device-width : 700px) {
 	.wrapper {
 		width: 50vw;
 		top: 68vw;
-		left: 25.8vw;
+		left: 23.4vw;
 	}
 	.wrapper ul li{
 		margin: 2% 9% 0 9%;
