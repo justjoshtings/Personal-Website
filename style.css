@@ -298,28 +298,6 @@ to align it properly */
   }
 }
 
-@media screen and (max-width: 640px){
-  .wrapper {
-      width: 40vw;
-      top: 34.5vw;
-      left: 14vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-@media screen and (max-width: 540px){
-	.wrapper {
-		width: 40vw;
-		top: 34.5vw;
-		left: 13.5vw;
-	}
-	.wrapper ul li{
-		margin-top: 0 10%;
-	}
-}
-
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
