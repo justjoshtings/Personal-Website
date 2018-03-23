@@ -299,8 +299,8 @@ to align it properly */
 }
 
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
+and (min-device-width : 320px) 
+and (max-device-width : 767px) {
 	.wrapper {
 		width: 50vw;
 		top: 68vw;
