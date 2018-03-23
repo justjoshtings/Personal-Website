@@ -10,7 +10,16 @@ body {
     padding: 0px;
     overflow: hidden;
 }
-
+.temp {
+	z-index: 6;
+	margin: 0 auto;
+	padding: 0;
+	top: 0;
+	left: 37vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
 .wrapper-background {
 	/* The image used */
     background-image: url("images/pic04_comp.jpg");
@@ -87,7 +96,7 @@ body {
   position: absolute;
   top: 92%;
   left: 50%;  
-  transform: translate(-51%, -50%);
+  transform: translate(-51.5%, -50%);
   width: 30vw;
   font-size: .8vw;
 }
@@ -163,7 +172,6 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-
 #particles-js {
 	position: absolute;
 	height: 100%;
@@ -195,7 +203,7 @@ to align it properly */
 }
 
 .side-nav a {
-	padding: 0vw 1vw 2vw 2.4vw;
+	padding: 0vw 1vw 2vw 2.1vw;
 	text-decoration: none;
 	font-size: 2.2vw;
 	color: #000;
