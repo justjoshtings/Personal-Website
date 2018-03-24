@@ -299,9 +299,9 @@ to align it properly */
 
 @media only screen 
 and (min-device-width : 1024px) 
-and (max-device-width : 1440px) {
+and (max-device-width : 1232px) {
 	.wrapper {
-		left: 16vw;
+		left: 15vw;
 	}
 	.wrapper ul li{
 		margin: 0.5% 8% 0 8%;
@@ -309,7 +309,18 @@ and (max-device-width : 1440px) {
 }
 
 @media only screen 
-and (min-device-width : 1440px) 
+and (min-device-width : 1233px) 
+and (max-device-width : 1440px) {
+	.wrapper {
+		left: 16.2vw;
+	}
+	.wrapper ul li{
+		margin: 0.5% 8% 0 8%;
+	}
+}
+
+@media only screen 
+and (min-device-width : 1441px) 
 and (max-device-width : 2560px) {
 	.wrapper {
 		left: 15vw;
@@ -317,10 +328,10 @@ and (max-device-width : 2560px) {
 }
 
 @media only screen 
-and (min-device-width : 700px) 
-and (max-device-width : 1024px) {
+and (min-device-width : 701px) 
+and (max-device-width : 1023px) {
 	.wrapper {
-		left: 13.9vw;
+		left: 12.9vw;
 	}
 }
 
@@ -328,14 +339,14 @@ and (max-device-width : 1024px) {
 and (min-device-width : 300px) 
 and (max-device-width : 330px) {
 	.wrapper {
-		left: 25vw;
+		left: 26vw;
 		top: 75vw;
 	}
 	.wrapper {
 		font-size: 1.5vw;
 	}
 	.wrapper ul li{
-		margin: 2% 1% 0 1%;
+		margin: 2% 2.2% 0 2.2%;
 		width: 5vw;
 		height: 5vw;
 	}
@@ -388,15 +399,13 @@ and (max-device-width : 330px) {
 	}
 }
 
-/*HAcKed By Mr Wednessday*/
-
 @media only screen 
-and (min-device-width : 330px) 
+and (min-device-width : 331px) 
 and (max-device-width : 700px) {
 	.wrapper {
 		width: 50vw;
-		top: 68vw;
-		left: 23.4vw;
+		top: 67vw;
+		left: 23.6vw;
 	}
 	.wrapper ul li{
 		margin: 2% 9% 0 9%;
