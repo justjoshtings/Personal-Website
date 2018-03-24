@@ -239,12 +239,11 @@ to align it properly */
 	opacity: 0.9;
 }
 
-
 .footer .mylogo {
-	width: 3vw;
-	height: 3vw;
+	width: 4vw;
+	height: 4vw;
 	margin: 0 auto;
-	top: 1vw;
+	top: .2vw;
 	position: relative;
 }
 
