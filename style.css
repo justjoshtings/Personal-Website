@@ -11,7 +11,7 @@ body {
     overflow: hidden;
 }
 .temp {
-	z-index: 6;
+	z-index: 10;
 	margin: 0 auto;
 	padding: 0;
 	top: 0;
@@ -38,6 +38,7 @@ body {
     -ms-content-zooming: none;
     position: absolute;
     overflow: scroll;
+    z-index: 0;
 }
 
 .square {
@@ -54,7 +55,7 @@ body {
 	border: 1px;
 	border-radius: 5px;
 	background-color: #FBFBFB;
-	z-index: 2;
+	z-index: 8;
 	opacity: 0.92;
 }
 
@@ -184,7 +185,7 @@ to align it properly */
 	padding-left: .3vw;
 	padding-top: .3vw;
 	margin: 1vw 1vw;
-	z-index: 4;
+	z-index: 9;
 	font-size: 3vw;
 }
 
@@ -192,7 +193,7 @@ to align it properly */
 	height: 100%;
 	width: 0;
 	position: fixed;
-	z-index: 4;
+	z-index: 10;
 	top: 0;
 	left: 0;	
 	background-color: #FDFDFD;
@@ -228,7 +229,7 @@ to align it properly */
 }
 
 .footer {
-	z-index: 1;
+	z-index: 10;
 	width: 100%;
 	background-color: #FDFDFD;
 	height: 4.5vw;
@@ -245,57 +246,90 @@ to align it properly */
 	margin: 0 auto;
 	top: .2vw;
 	position: relative;
+	background-color: #FDFDFD;
 }
 
-@media screen and (max-width: 1600px){
-  .wrapper {
-      width: 30vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
+.about_layout {
+	z-index: 7;
+	position: relative;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.profpicbanner1 {
+	width: 38%;
+	left: 5vw;
+	height: 1vw;
+	top: 7vw;
+	position: relative;
+	border-bottom: .3vw solid white;
+	border-bottom-left-radius: .3vw;
+	border-bottom-right-radius: .3vw;
+}
+
+.profpicbanner2 {
+	width: 38%;
+	left: 57vw;
+	height: 1vw;
+	top: 6vw;
+	position: relative;
+	border-bottom: .3vw solid white;
+	border-bottom-left-radius: .3vw;
+	border-bottom-right-radius: .3vw;
+}
+
+.profpicround {
+	width: 13vw;
+	height: 13vw;
+	border-radius: 10vw;
+	left: 43.5vw;
+	top: 0.55vw;
+	background-color: white;
+	position: absolute;
+	z-index: 7;
+}
+
+.myprof {
+	width: 12vw;
+	height: 12vw;
+	position: absolute;
+	left: 44vw;
+	z-index: 8;
+	top: 5vw;
+}
+
+.about_temp {
+	width: 30vw;
+	height: 30vw;
+	border-radius: 3vw;
+	left: 11vw;
+	top: 18vw;
+	background-color: #F4F4F4;
+	position: absolute;
+}
+
+.about_content{
+	position: relative;
+	z-index: 8;
+	top: 11vw;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 1vw;
+}
+.about_content h1{
+	left: 21vw;
+	position: relative;
+	color: #595959;
+}
+
+.about_content p{
+	left: 17vw;
+	position: relative;
 }
 
 
-@media screen and (max-width: 1370px){
-  .wrapper {
-      width: 30vw;
-      left: 15.4vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
 
-/*@media screen and (max-width: 1240px){
-  .wrapper {
-      width: 35vw;
-      left: 16.5vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-@media screen and (max-width: 1000px){
-  .wrapper {
-      width: 40vw;
-      left: 16vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}
-
-@media screen and (max-width: 840px){
-  .wrapper {
-      width: 40vw;
-  }
-  .wrapper ul li{
-      margin-top: 0 10%;
-  }
-}*/
-
+/*Small Laptops*/
 @media only screen 
 and (min-device-width : 1024px) 
 and (max-device-width : 1232px) {
@@ -307,17 +341,19 @@ and (max-device-width : 1232px) {
 	}
 }
 
+/*Medium Laptops*/
 @media only screen 
 and (min-device-width : 1233px) 
 and (max-device-width : 1440px) {
 	.wrapper {
-		left: 16.2vw;
+		left: 15.9vw;
 	}
 	.wrapper ul li{
 		margin: 0.5% 8% 0 8%;
 	}
 }
 
+/*Large laptops*/
 @media only screen 
 and (min-device-width : 1441px) 
 and (max-device-width : 2560px) {
@@ -326,6 +362,7 @@ and (max-device-width : 2560px) {
 	}
 }
 
+/*Tablets*/
 @media only screen 
 and (min-device-width : 701px) 
 and (max-device-width : 1023px) {
@@ -334,6 +371,7 @@ and (max-device-width : 1023px) {
 	}
 }
 
+/*Small Mobile*/
 @media only screen 
 and (min-device-width : 300px) 
 and (max-device-width : 330px) {
@@ -396,8 +434,12 @@ and (max-device-width : 330px) {
 		font-weight: bold;
 		padding: 4vw 0;
 	}
+	.myprof {
+	top: 11.6vw;
+}
 }
 
+/*Medium & Large Mobile*/
 @media only screen 
 and (min-device-width : 331px) 
 and (max-device-width : 700px) {
@@ -464,5 +506,8 @@ and (max-device-width : 700px) {
 		font-weight: bold;
 		padding: 4vw 0;
 	}
+		.myprof {
+	top: 11.6vw;
+}
 }
 
