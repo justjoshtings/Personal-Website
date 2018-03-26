@@ -6,9 +6,11 @@ html {
 	font-size: 62.5%;
 }
 body {
-	margin: 0px;
-    padding: 0px;
-    overflow: hidden;
+	/*min-height: 100%;*/
+	margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .temp {
 	z-index: 10;
@@ -25,20 +27,22 @@ body {
     background-image: url("images/pic04_comp.jpg");
 
     /* Full height */
-    height: 100%; 
+    height: 100vw; 
     width: 100%;
 
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
     -ms-content-zooming: none;
     position: absolute;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     z-index: 0;
+    margin: 0;
 }
 
 .square {
@@ -234,6 +238,7 @@ to align it properly */
 	background-color: #FDFDFD;
 	height: 4.5vw;
 	bottom: 0vw;
+	/*top: 100vw;*/
 	text-align: center;
 	position: fixed;
 	overflow: hidden;
@@ -300,34 +305,47 @@ to align it properly */
 }
 
 .about_temp {
-	width: 30vw;
+	width: 70vw;
 	height: 30vw;
 	border-radius: .7vw;
-	left: 11vw;
-	top: 18vw;
+	left: 16vw;
+	top: 21vw;
 	background-color: #F4F4F4;
 	position: absolute;
 }
 
+.about_temp p{
+	color: grey;
+	text-align: left;
+	font-size: 1.2vw;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-weight: bold;
+	margin: 1vw;
+
+}
 .about_content{
 	position: relative;
 	z-index: 8;
-	top: 11vw;
+	top: 13vw;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-size: 1vw;
 }
 .about_content h1{
-	left: 21vw;
+	left: 45vw;
 	position: relative;
 	color: #595959;
 }
 
-.about_content p{
-	left: 17vw;
-	position: relative;
+.about_temp_2 {
+	width: 70vw;
+	height: 30vw;
+	border-radius: .7vw;
+	left: 16vw;
+	top: 55vw;
+	background-color: #F4F4F4;
+	position: absolute;
+	overflow: scroll;
 }
-
-
 
 /*Small Laptops*/
 @media only screen 
@@ -375,6 +393,9 @@ and (max-device-width : 1023px) {
 @media only screen 
 and (min-device-width : 300px) 
 and (max-device-width : 330px) {
+	.wrapper-background {
+		height: 100%;
+	}
 	.wrapper {
 		left: 26vw;
 		top: 75vw;
@@ -443,6 +464,9 @@ and (max-device-width : 330px) {
 @media only screen 
 and (min-device-width : 331px) 
 and (max-device-width : 700px) {
+	.wrapper-background {
+		height: 100%;
+	}
 	.wrapper {
 		width: 50vw;
 		top: 67vw;
