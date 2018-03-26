@@ -302,7 +302,7 @@ to align it properly */
 .about_temp {
 	width: 30vw;
 	height: 30vw;
-	border-radius: 3vw;
+	border-radius: .7vw;
 	left: 11vw;
 	top: 18vw;
 	background-color: #F4F4F4;
