@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> <!--fonts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<title>Josh Ting About</title>
 </head>
 <body>
@@ -26,49 +27,52 @@
 			<a href="portfolio.html" class="nav-links">Portfolio</a>
 			<a href="contact.html" class="nav-links">Contact</a>
 		</div>
-		<script type="text/javascript" src="script.js"></script>
-		<noscript>Sorry, your browswer does not support JavaScript</noscript>
+		
 
 		<div id="particles-js"></div>
-		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-		<noscript>Sorry, your browswer does not support JavaScript</noscript>
-		<script>
-			particlesJS.load('particles-js', 'particles.json', function(){
-				console.log('particles.json loaded...');
-			});
-		</script>
-		<noscript>Sorry, your browswer does not support JavaScript</noscript>
-		<div class="about_layout">
+
+		<div class="about_wrapper">
+			<button class="about_content"><a href="#linktoaboutme">About Me</a></button> 
+			<button class="about_skills"><a href="#linktoskills">Skills</a></button> 
+			<button class="about_interests"><a href="#linktointerests">Interests</a></button> 
+		</div>
+
+		<div class='profilepic'>
+			<img src="images/myprof.png" alt="Prof Pic" class="myprof">
+		</div>
+
+		<div class="about_layout" id="linktoaboutme">
 			<div class="profpicbanner1"></div>
 			<div class="profpicbanner2"></div>
 			<div class="profpicround"></div>
 			<div class="about_temp">
 				<p>Hello and welcome! My name is Joshua and I am currently finishing up my Bachelor's degree in Mechanical Engineering with a concentration in Energy Technologies from Boston University. My background gives me a strong technical background in renewable energy technologies and energy efficiency, however, I have a very versatile skillset with lots more to offer. I find that I am fascinated by data and how, with the right process, we can turn meaningless data into a story. I am currently looking for a fast paced environment that both challenges and fosters growth. I would love to be in a role where I can leverage and grow my skills in using modern programming languages and statistical tools to tell the story behind the data. Please feel free to explore my site and contact me.</p>
-				<!-- <p>Some of my interests include machine learning, renewable energy, and web development. I aim to build personal projects where my interests converge. Please feel free to browse my GitHub profile and do not hesitate to contact me regarding anything.</p>  -->
 			</div>
-			<div class="about_temp_banner"></div>
-			<div class="about_skills_banner"></div>
 		</div>
-		<div class='profilepic'>
-			<img src="images/myprof.png" alt="Prof Pic" class="myprof">
+		
+		<div class="about_skills_list" id="linktoskills">
+			<p>Joshua Knows <span id="rotate">Python</span></p>
+			<ul>
+				<li id="MATLAB">MATLAB</li>
+				<li id="Python">Python</li>
+				<li id="HTML5">HTML5</li>
+				<li id="CSS3">CSS3</li>
+				<li id="JavaScript">JavaScript</li>
+				<li id="JSON">JSON</li>
+				<li id="Git">Git</li>
+				<li id="COMSOL">COMSOL</li>
+				<li id="Creo">PTC Creo</li>
+				<li id="SolidWorks">SolidWorks</li>
+				<li id="AutoCAD">AutoCAD</li>
+				<li id="FlexSim">FlexSim</li>
+				<li id="jQuery">jQuery</li>
+			</ul>
 		</div>
-		<div class="about_wrapper">
-			<h1 class="about_content">About Me</h1>
-			<h1 class="about_skills">Skills</h1>
-		</div>
-		<div class="about_skills_list">
-			<li>
-				<ul>MATLAB</ul>
-				<ul>Python</ul>
-				<ul>HTML5</ul>
-				<ul>CSS3</ul>
-				<ul>JavaScript</ul>
-				<ul>COMSOL</ul>
-				<ul>Creo Parametric</ul>
-				<ul>SolidWorks</ul>
-			</li>
+
+		<div class="about_interests_link" id="linktointerests">
 		</div>
 	</div>
+
 	<!-- <div class="temp">
 		<h1>Coming Soon!</h1>
 	</div> -->
@@ -76,6 +80,16 @@
 <footer class="footer">
 	<!-- <p>Created by:</p> -->
 	<img src="images/mylogo_01.png" alt="personal logo" class="mylogo">
+	<script type="text/javascript" src="script.js"></script>
+	<noscript>Sorry, your browswer does not support JavaScript</noscript>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+		<noscript>Sorry, your browswer does not support JavaScript</noscript>
+		<script>
+			particlesJS.load('particles-js', 'particles.json', function(){
+				console.log('particles.json loaded...');
+			});
+		</script>
+		<noscript>Sorry, your browswer does not support JavaScript</noscript>
 </footer>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116094593-1"></script>

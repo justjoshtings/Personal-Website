@@ -319,42 +319,83 @@ to align it properly */
 	margin: 1.9vw;
 	line-height: 1.6;
 }
-.about_temp_banner {
-	width: 30%;
-	left: 35vw;
-	height: 1vw;
-	top: 18vw;
-	position: relative;
-	border-bottom: .1vw solid white;
-}
 .about_wrapper {
 	position: relative;
 	z-index: 8;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-size: 1.2vw;
 }
-.about_content {
-	top: 12vw;
+.about_wrapper a:link {
+	text-decoration: none;
 	color: black;
+}
+.about_wrapper a:visited {
+	text-decoration: none;
+	color: black;
+}
+.about_wrapper a:hover, .about_wrapper button:hover {
+	text-decoration: none;
+	color: #2A9797;
+	text-shadow: 0 0 20px #2A9797;
+	transition: all 0.5s ease;
+	border-bottom-color: #2A9797;
+}
+.about_content , .about_skills , .about_interests {
+	position: absolute;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	height: 5vw;
+	width: 15vw;
+	opacity: 0.5;
+	border-width: 0 0 .2vw 0;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	background-color: transparent;
+	overflow: hidden;
+	font-size: 2.4vw;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+.about_content a, .about_skills a, .about_interests a {
+	top: .75vw;
 	position: relative;
-	font-weight: normal;
-	left: 44vw;
+}
+.about_content {
+	left: 42.5vw;
+	top: 13.5vw;
 }
 .about_skills {
-	top: 43vw;
-	color: black;
-	position: relative;
-	font-weight: normal;
-	left: 45.8vw;
+	left: 21vw;
+	top: 13.5vw;
 }
-.about_skills_banner {
-	width: 30%;
-	left: 35vw;
-	height: 1vw;
-	top: 52.5vw;
-	position: relative;
-	border-bottom: .1vw solid white;
+.about_interests {
+	top: 13.5vw;
+	left: 65vw;
 }
+.about_skills_list {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	top: 50vw;
+	text-align: center;
+	font-size: 3vw;
+	position: relative;
+	/*font-weight: bold;*/
+}
+.about_skills_list ul {
+	display: none;
+}
+#rotate {
+	position: relative;
+	text-align: center;
+	font-weight: bold;	
+	top: .1vw;
+	color: #CE4034;
+}
+.about_interests_link {
+	top: 80vw;
+	border: 5px solid white;
+	position: relative;
+}
+
 
 /*Small Laptops*/
 @media only screen 
