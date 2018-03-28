@@ -6,11 +6,8 @@ html {
 	font-size: 62.5%;
 }
 body {
-	/*min-height: 100%;*/
 	margin: 0;
     padding: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
 }
 .temp {
 	z-index: 10;
@@ -41,6 +38,7 @@ body {
     position: absolute;
     overflow-y: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     z-index: 0;
     margin: 0;
 }
@@ -182,7 +180,7 @@ to align it properly */
 	height: 100%;
 	width: 100%;
 	z-index: 1;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .nav-button {
@@ -241,7 +239,7 @@ to align it properly */
 	/*top: 100vw;*/
 	text-align: center;
 	position: fixed;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	opacity: 0.9;
 }
 
@@ -260,8 +258,11 @@ to align it properly */
 	color: white;
 	margin: 0;
 	padding: 0;
+	opacity: 0.95;
 }
-
+.myprof {
+	opacity: 0.95;
+}
 .profpicbanner1 {
 	width: 38%;
 	left: 5vw;
@@ -272,7 +273,6 @@ to align it properly */
 	border-bottom-left-radius: .3vw;
 	border-bottom-right-radius: .3vw;
 }
-
 .profpicbanner2 {
 	width: 38%;
 	left: 57vw;
@@ -283,7 +283,6 @@ to align it properly */
 	border-bottom-left-radius: .3vw;
 	border-bottom-right-radius: .3vw;
 }
-
 .profpicround {
 	width: 13vw;
 	height: 13vw;
@@ -294,7 +293,6 @@ to align it properly */
 	position: absolute;
 	z-index: 7;
 }
-
 .myprof {
 	width: 12vw;
 	height: 12vw;
@@ -306,45 +304,48 @@ to align it properly */
 
 .about_temp {
 	width: 70vw;
-	height: 30vw;
+	height: 25vw;
 	border-radius: .7vw;
 	left: 16vw;
 	top: 21vw;
 	background-color: #F4F4F4;
 	position: absolute;
 }
-
 .about_temp p{
-	color: grey;
+	color: black;
 	text-align: left;
-	font-size: 1.2vw;
+	font-size: 1.34vw;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	font-weight: bold;
-	margin: 1vw;
-
+	margin: 1.9vw;
+	line-height: 1.6;
 }
-.about_content{
+.about_temp_banner {
+	width: 30%;
+	left: 35vw;
+	height: 1vw;
+	top: 16.8vw;
+	position: relative;
+	border-bottom: .1vw solid white;
+}
+.about_wrapper {
 	position: relative;
 	z-index: 8;
-	top: 13vw;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	font-size: 1vw;
+	font-size: 1.2vw;
 }
-.about_content h1{
-	left: 45vw;
+.about_content {
+	top: 12vw;
+	color: black;
 	position: relative;
-	color: #595959;
+	font-weight: normal;
+	left: 44vw;
 }
-
-.about_temp_2 {
-	width: 70vw;
-	height: 30vw;
-	border-radius: .7vw;
-	left: 16vw;
-	top: 55vw;
-	background-color: #F4F4F4;
-	position: absolute;
-	overflow: scroll;
+.about_skills {
+	top: 44vw;
+	color: black;
+	position: relative;
+	font-weight: normal;
+	left: 45.8vw;
 }
 
 /*Small Laptops*/
