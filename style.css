@@ -180,7 +180,7 @@ to align it properly */
 	height: 100%;
 	width: 100%;
 	z-index: 1;
-	/*overflow: hidden;*/
+	opacity: 0.65;
 }
 
 .nav-button {
@@ -307,7 +307,7 @@ to align it properly */
 	height: 25vw;
 	border-radius: .7vw;
 	left: 16vw;
-	top: 21vw;
+	top: 22vw;
 	background-color: #F4F4F4;
 	position: absolute;
 }
@@ -323,7 +323,7 @@ to align it properly */
 	width: 30%;
 	left: 35vw;
 	height: 1vw;
-	top: 16.8vw;
+	top: 18vw;
 	position: relative;
 	border-bottom: .1vw solid white;
 }
@@ -341,11 +341,19 @@ to align it properly */
 	left: 44vw;
 }
 .about_skills {
-	top: 44vw;
+	top: 43vw;
 	color: black;
 	position: relative;
 	font-weight: normal;
 	left: 45.8vw;
+}
+.about_skills_banner {
+	width: 30%;
+	left: 35vw;
+	height: 1vw;
+	top: 52.5vw;
+	position: relative;
+	border-bottom: .1vw solid white;
 }
 
 /*Small Laptops*/
