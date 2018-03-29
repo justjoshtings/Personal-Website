@@ -177,7 +177,7 @@ to align it properly */
 
 #particles-js {
 	position: absolute;
-	height: 100%;
+	height: 150vw;
 	width: 100%;
 	z-index: 1;
 	opacity: 0.65;
@@ -395,7 +395,7 @@ to align it properly */
     position: absolute;
     left: 25vw;
 }
-#Python:hover, #MATLAB:hover, #JavaScript:hover, #HTML5:hover, #CSS3:hover, #JSON:hover, #Git:hover, #COMSOL:hover, #PTC_Creo:hover, #SolidWorks:hover, #Django:hover, #FlexSim:hover, #AutoCAD:hover, #jQuery:hover, #Test:hover{
+#Python:hover, #MATLAB:hover, #JavaScript:hover, #HTML5:hover, #CSS3:hover, #JSON:hover, #Git:hover, #COMSOL:hover, #PTC_Creo:hover, #SolidWorks:hover, #Django:hover, #FlexSim:hover, #AutoCAD:hover, #jQuery:hover, #Nginx:hover{
 	color: white;
 	text-shadow: 0 0 2px white;
 	transition: all 0.3s ease;
@@ -413,20 +413,96 @@ to align it properly */
 	text-align: center;
 	font-size: 3vw;
 	width: 70vw;
-	height: 5vw;
+	height: 35vw;
 	border-radius: .7vw;
 	left: 15vw;
 	top: 105vw;
 	background-color: #F4F4F4;
 	position: absolute;
 	opacity: 0.9;
+	z-index: 7
 }
 #linktointerests {
-	top: 110vw;
+	top: 117vw;
 	position: relative;
 	height: 20vw;
 }
 
+.interests_img_wrap img {
+	height: 12vw;
+	width: 12vw;
+	position: absolute;
+	top: 3vw;
+	opacity: 0.4;
+}
+.interests_img_wrap img:hover {
+	opacity: 1;
+}
+.interests_img_wrap #web_dev_wrap:hover #web_dev_text {
+	visibility: visible;
+	opacity: 1;
+}
+.interests_img_wrap #ramen_wrap:hover #ramen_text {
+	visibility: visible;
+	opacity: 1;
+}
+.interests_img_wrap #machine_learning_wrap:hover #machine_learning_text {
+	visibility: visible;
+	opacity: 1;
+}
+.interests_img_wrap #green_e_wrap:hover #green_e_text {
+	visibility: visible;
+	opacity: 1;
+}
+.interests_img_wrap #blockchain_wrap:hover #blockchain_text {
+	visibility: visible;
+	opacity: 1;
+}
+.interests_img_wrap #web_dev {
+	left: 2vw;
+}
+.interests_img_wrap #machine_learning {
+	left: 15vw;
+}
+.interests_img_wrap #green_e {
+	left: 29vw;
+}
+.interests_img_wrap #blockchain {
+	left: 42vw;
+}
+.interests_img_wrap #ramen {
+	left: 56vw;
+}
+.interests_img_wrap p {
+	position: absolute;
+	top: 16vw;
+	font-size: 6vw;
+}
+.interests_img_wrap #web_dev_text {
+	left: 9vw;
+	visibility: hidden;
+	opacity: 0;
+}
+.interests_img_wrap #ramen_text {
+	left: 25vw;
+	visibility: hidden;
+	opacity: 0;
+}
+.interests_img_wrap #machine_learning_text {
+	left: 7vw;
+	visibility: hidden;
+	opacity: 0;
+}
+.interests_img_wrap #green_e_text {
+	left: 3vw;
+	visibility: hidden;
+	opacity: 0;
+}
+.interests_img_wrap #blockchain_text {
+	left: 17vw;
+	visibility: hidden;
+	opacity: 0;
+}
 
 /*Small Laptops*/
 @media only screen 
@@ -437,6 +513,9 @@ and (max-device-width : 1232px) {
 	}
 	.wrapper ul li{
 		margin: 0.5% 8% 0 8%;
+	}
+	.about_skills_list ul {
+	    left: 24vw;
 	}
 }
 
@@ -459,6 +538,9 @@ and (max-device-width : 2560px) {
 	.wrapper {
 		left: 15vw;
 	}
+	.about_skills_list ul {
+	    left: 27vw;
+	}
 }
 
 /*Tablets*/
@@ -467,6 +549,9 @@ and (min-device-width : 701px)
 and (max-device-width : 1023px) {
 	.wrapper {
 		left: 12.9vw;
+	}
+	.about_skills_list ul {
+	    left: 23vw;
 	}
 }
 
@@ -537,8 +622,11 @@ and (max-device-width : 330px) {
 		padding: 4vw 0;
 	}
 	.myprof {
-	top: 11.6vw;
-}
+		top: 11.6vw;
+	}
+	.about_skills_list ul {
+	    left: 16vw;
+	}
 }
 
 /*Medium & Large Mobile*/
@@ -611,8 +699,11 @@ and (max-device-width : 700px) {
 		font-weight: bold;
 		padding: 4vw 0;
 	}
-		.myprof {
-	top: 11.6vw;
-}
+	.myprof {
+		top: 11.6vw;
+	}
+	.about_skills_list ul {
+	    left: 18vw;
+	}
 }
 
