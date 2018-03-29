@@ -391,7 +391,7 @@ to align it properly */
     column-count: 3;
     column-gap: 3.5vw;
     line-height: 1.6;
-    display: inline-block;
+    display: inline;
     position: absolute;
     left: 25vw;
 }
