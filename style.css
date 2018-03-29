@@ -236,10 +236,8 @@ to align it properly */
 	background-color: #FDFDFD;
 	height: 4.5vw;
 	bottom: 0vw;
-	/*top: 100vw;*/
 	text-align: center;
 	position: fixed;
-	/*overflow: hidden;*/
 	opacity: 0.9;
 }
 
@@ -260,9 +258,6 @@ to align it properly */
 	padding: 0;
 	opacity: 0.95;
 }
-.myprof {
-	opacity: 0.95;
-}
 .profpicbanner1 {
 	width: 38%;
 	left: 5vw;
@@ -277,7 +272,7 @@ to align it properly */
 	width: 38%;
 	left: 57vw;
 	height: 1vw;
-	top: 6vw;
+	top: 5.9vw;
 	position: relative;
 	border-bottom: .3vw solid white;
 	border-bottom-left-radius: .3vw;
@@ -288,7 +283,7 @@ to align it properly */
 	height: 13vw;
 	border-radius: 10vw;
 	left: 43.5vw;
-	top: 0.55vw;
+	top: 0vw;
 	background-color: white;
 	position: absolute;
 	z-index: 7;
@@ -299,17 +294,18 @@ to align it properly */
 	position: absolute;
 	left: 44vw;
 	z-index: 8;
-	top: 5vw;
+	top: 4.43vw;
+	opacity: 0.95;
 }
-
 .about_temp {
 	width: 70vw;
 	height: 25vw;
 	border-radius: .7vw;
-	left: 16vw;
-	top: 22vw;
+	left: 15vw;
+	top: 22.5vw;
 	background-color: #F4F4F4;
 	position: absolute;
+	opacity: 0.9;
 }
 .about_temp p{
 	color: black;
@@ -335,65 +331,100 @@ to align it properly */
 }
 .about_wrapper a:hover, .about_wrapper button:hover {
 	text-decoration: none;
-	color: #2A9797;
-	text-shadow: 0 0 20px #2A9797;
-	transition: all 0.5s ease;
-	border-bottom-color: #2A9797;
+	color: #061817;
+	text-shadow: 0 0 4px #061817;
+	transition: all 0.3s ease;
+	border-bottom-color: #60CCD1;
+	opacity: 0.8;
 }
 .about_content , .about_skills , .about_interests {
 	position: absolute;
 	font-weight: bold;
 	text-transform: uppercase;
 	
-	height: 5vw;
-	width: 15vw;
+	height: 3.5vw;
+	width: 17vw;
 	opacity: 0.5;
-	border-width: 0 0 .2vw 0;
+	border-width: 0 0 .15vw 0;
 	border-bottom-style: solid;
 	border-bottom-color: white;
 	background-color: transparent;
 	overflow: hidden;
-	font-size: 2.4vw;
+	font-size: 2.8vw;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
-.about_content a, .about_skills a, .about_interests a {
-	top: .75vw;
-	position: relative;
-}
 .about_content {
-	left: 42.5vw;
-	top: 13.5vw;
+	left: 41.5vw;
+	top: 15.5vw;
+}
+.skills_temp {
+	width: 70vw;
+	height: 8vw;
+	border-radius: .7vw;
+	left: 15vw;
+	top: 58vw;
+	background-color: #F4F4F4;
+	position: absolute;
+	z-index: 7;
+	opacity: 0.9;
 }
 .about_skills {
 	left: 21vw;
-	top: 13.5vw;
-}
-.about_interests {
-	top: 13.5vw;
-	left: 65vw;
+	top: 15.5vw;
 }
 .about_skills_list {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	top: 50vw;
+	top: 56vw;
 	text-align: center;
 	font-size: 3vw;
 	position: relative;
-	/*font-weight: bold;*/
+	z-index: 8;
 }
 .about_skills_list ul {
-	display: none;
+	font-size: 2vw;
+	text-decoration: none;
+	list-style: none;
+	-moz-column-count: 3;
+    -moz-column-gap: 3.5vw;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 3.5vw;
+    column-count: 3;
+    column-gap: 3.5vw;
+    line-height: 1.6;
+    display: inline-block;
+    position: absolute;
+    left: 25vw;
 }
-#rotate {
+#Python:hover, #MATLAB:hover, #JavaScript:hover, #HTML5:hover, #CSS3:hover, #JSON:hover, #Git:hover, #COMSOL:hover, #PTC_Creo:hover, #SolidWorks:hover, #Django:hover, #FlexSim:hover, #AutoCAD:hover, #jQuery:hover, #Test:hover{
+	color: white;
+	text-shadow: 0 0 2px white;
+	transition: all 0.3s ease;
+}
+#linktoskills {
+	top: 46vw;
 	position: relative;
-	text-align: center;
-	font-weight: bold;	
-	top: .1vw;
-	color: #CE4034;
+}
+.about_interests {
+	top: 15.5vw;
+	left: 62vw;
 }
 .about_interests_link {
-	top: 80vw;
-	border: 5px solid white;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	text-align: center;
+	font-size: 3vw;
+	width: 70vw;
+	height: 5vw;
+	border-radius: .7vw;
+	left: 15vw;
+	top: 105vw;
+	background-color: #F4F4F4;
+	position: absolute;
+	opacity: 0.9;
+}
+#linktointerests {
+	top: 110vw;
 	position: relative;
+	height: 20vw;
 }
 
 
