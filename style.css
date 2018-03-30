@@ -479,7 +479,7 @@ to align it properly */
 	font-size: 6vw;
 }
 .interests_img_wrap #web_dev_text {
-	left: 9vw;
+	left: 8.75vw;
 	visibility: hidden;
 	opacity: 0;
 }
@@ -489,12 +489,12 @@ to align it properly */
 	opacity: 0;
 }
 .interests_img_wrap #machine_learning_text {
-	left: 7vw;
+	left: 6.75vw;
 	visibility: hidden;
 	opacity: 0;
 }
 .interests_img_wrap #green_e_text {
-	left: 3vw;
+	left: 3.75vw;
 	visibility: hidden;
 	opacity: 0;
 }
