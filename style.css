@@ -307,10 +307,10 @@ body.fade-out {
 	text-decoration: none;
 	color: black;
 }
-.about_wrapper a:hover, .about_wrapper button:hover {
+.about_wrapper a:hover, .about_wrapper button:hover{
 	text-decoration: none;
 	color: #061817;
-	text-shadow: 0 0 4px #061817;
+	text-shadow: 0 0 0.5px #061817;
 	transition: all 0.3s ease;
 	border-bottom-color: #60CCD1;
 	opacity: 0.8;
@@ -403,7 +403,7 @@ body.fade-out {
 #linktointerests {
 	top: 117vw;
 	position: relative;
-	height: 20vw;
+	height: 5vw;
 }
 .interests_img_wrap img {
 	height: 12vw;
@@ -595,9 +595,132 @@ and (max-device-width : 330px) {
 	}
 	.myprof {
 		top: 11.6vw;
+		width: 30vw;
+		height: 30vw;
+		left: 35vw;
+	}
+	.profpicbanner1 {
+		top: 16vw;
+		border-bottom: 1vw solid white;
+		border-bottom-left-radius: 1vw;
+		border-bottom-right-radius: 1vw;
+	}
+	.profpicbanner2 {
+		top: 15vw;
+		border-bottom: 1vw solid white;
+		border-bottom-left-radius: 1vw;
+		border-bottom-right-radius: 1vw;
+	}
+	.profpicround {
+		width: 32vw;
+		height: 32vw;
+		border-radius: 30vw;
+		left: 33.8vw;
+	}
+	.about_temp {
+		width: 85vw;
+		height: 100vw;
+		border-radius: 1vw;
+		left: 8vw;
+		top: 50vw;
+	}
+	.about_temp p{
+		font-size: 3.1vw;
+	}
+	.about_wrapper {
+		font-size: 9vw;
+	}
+	.about_content , .about_skills , .about_interests {
+		height: 6vw;
+		width: 26.5vw;
+		border-width: 0 0 .3vw 0;
+		font-size: 4.5vw;
+	}
+	.about_content {
+		left: 37vw;
+		top: 37.5vw;
+	}
+	.about_skills {
+		left: 8.5vw;
+		top: 37.5vw;
+	}
+	.about_interests {
+		left: 65.5vw;
+		top: 37.5vw;
+	}
+	#linktoskills {
+		top: 150vw;
+	}
+	.skills_temp {
+		top: 218vw;
+		height: 14vw;
+		width: 85vw;
+		left: 7.5vw;
+		border-radius: 1vw;
+	}
+	.about_skills_list {
+		top: 215vw;
+		font-size: 5.5vw;
 	}
 	.about_skills_list ul {
-	    left: 16vw;
+		font-size: 4vw;
+	    column-gap: 3.5vw;
+	    left: 0vw;
+	}
+	.about_interests_link {
+		width: 85vw;
+		height: 70vw;
+		border-radius: 1vw;
+		top: 358vw;
+		left: 7.5vw;
+	}
+	#linktointerests {
+		top: 330vw;
+		heighvw;
+	}
+	.interests_img_wrap img {
+		height: 20vw;
+		width: 20vw;
+	}
+	.interests_img_wrap #web_dev {
+		top: 4vw;
+		left: 4vw;
+	}
+	.interests_img_wrap #machine_learning {
+		top: 4vw;
+		left: 33vw;
+	}
+	.interests_img_wrap #green_e {
+		top: 4vw;
+		left: 60vw;
+	}
+	.interests_img_wrap #blockchain {
+		top: 27vw;
+		left: 18vw;
+	}
+	.interests_img_wrap #ramen {
+		top: 27vw;
+		left: 47vw;
+	}
+	.interests_img_wrap p {
+		top: 45vw;
+		font-size: 8vw;
+	}
+	.interests_img_wrap #web_dev_text {
+		left: 7vw;
+	}
+	.interests_img_wrap #ramen_text {
+		left: 25vw;
+	}
+	.interests_img_wrap #machine_learning_text {
+		left: 5vw;
+	}
+	.interests_img_wrap #green_e_text {
+		left: 3.75vw;
+		top: 43vw;
+	}
+	.interests_img_wrap #blockchain_text {
+		left: 18vw;
 	}
 }
 /*Medium & Large Mobile*/
@@ -672,8 +795,131 @@ and (max-device-width : 700px) {
 	}
 	.myprof {
 		top: 11.6vw;
+		width: 30vw;
+		height: 30vw;
+		left: 35vw;
+	}
+	.profpicbanner1 {
+		top: 16vw;
+		border-bottom: 1vw solid white;
+		border-bottom-left-radius: 1vw;
+		border-bottom-right-radius: 1vw;
+	}
+	.profpicbanner2 {
+		top: 15vw;
+		border-bottom: 1vw solid white;
+		border-bottom-left-radius: 1vw;
+		border-bottom-right-radius: 1vw;
+	}
+	.profpicround {
+		width: 32vw;
+		height: 32vw;
+		border-radius: 30vw;
+		left: 33.8vw;
+	}
+	.about_temp {
+		width: 85vw;
+		height: 68vw;
+		border-radius: 1vw;
+		left: 8vw;
+		top: 50vw;
+	}
+	.about_temp p{
+		font-size: 2.6vw;
+	}
+	.about_wrapper {
+		font-size: 9vw;
+	}
+	.about_content , .about_skills , .about_interests {
+		height: 6vw;
+		width: 26.5vw;
+		border-width: 0 0 .3vw 0;
+		font-size: 4.5vw;
+	}
+	.about_content {
+		left: 37vw;
+		top: 37.5vw;
+	}
+	.about_skills {
+		left: 8.5vw;
+		top: 37.5vw;
+	}
+	.about_interests {
+		left: 65.5vw;
+		top: 37.5vw;
+	}
+	#linktoskills {
+		top: 120vw;
+	}
+	.skills_temp {
+		top: 158vw;
+		height: 14vw;
+		width: 85vw;
+		left: 7.5vw;
+		border-radius: 1vw;
+	}
+	.about_skills_list {
+		top: 155vw;
+		font-size: 5.5vw;
 	}
 	.about_skills_list ul {
-	    left: 18vw;
+		font-size: 4vw;
+	    column-gap: 3.5vw;
+	    left: 2vw;
+	}
+	.about_interests_link {
+		width: 85vw;
+		height: 70vw;
+		border-radius: 1vw;
+		top: 278vw;
+		left: 7.5vw;
+	}
+	#linktointerests {
+		top: 250vw;
+		height: 120vw;
+	}
+	.interests_img_wrap img {
+		height: 20vw;
+		width: 20vw;
+	}
+	.interests_img_wrap #web_dev {
+		top: 4vw;
+		left: 4vw;
+	}
+	.interests_img_wrap #machine_learning {
+		top: 4vw;
+		left: 33vw;
+	}
+	.interests_img_wrap #green_e {
+		top: 4vw;
+		left: 60vw;
+	}
+	.interests_img_wrap #blockchain {
+		top: 27vw;
+		left: 18vw;
+	}
+	.interests_img_wrap #ramen {
+		top: 27vw;
+		left: 47vw;
+	}
+	.interests_img_wrap p {
+		top: 45vw;
+		font-size: 8vw;
+	}
+	.interests_img_wrap #web_dev_text {
+		left: 7vw;
+	}
+	.interests_img_wrap #ramen_text {
+		left: 25vw;
+	}
+	.interests_img_wrap #machine_learning_text {
+		left: 5vw;
+	}
+	.interests_img_wrap #green_e_text {
+		left: 3.75vw;
+		top: 43vw;
+	}
+	.interests_img_wrap #blockchain_text {
+		left: 18vw;
 	}
 }
