@@ -1,3 +1,6 @@
+$(function() {
+    $('body').removeClass('fade-out');
+});
 
 function openNav() {
 	if (window.screen.width <=  667) {
@@ -11,7 +14,6 @@ function openNav() {
 function closeNav() {
 	document.getElementById('side-menu').style.width = '0';
 }
-
 
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
