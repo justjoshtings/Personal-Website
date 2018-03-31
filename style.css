@@ -480,6 +480,19 @@ body.fade-out {
 	visibility: hidden;
 	opacity: 0;
 }
+#linktotop {
+	top: 0vw;
+}
+#up_btn {
+	position: fixed;
+	z-index: 9;
+	bottom: 6vw;
+	right: 3vw;
+}
+#up_btn img {
+	height: 3.5vw;
+	width: 3.5vw;
+}
 /*Small Laptops*/
 @media only screen 
 and (min-device-width : 1024px) 
@@ -676,7 +689,7 @@ and (max-device-width : 330px) {
 	}
 	#linktointerests {
 		top: 330vw;
-		heighvw;
+		height: 150vw;
 	}
 	.interests_img_wrap img {
 		height: 20vw;
