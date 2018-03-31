@@ -4,10 +4,17 @@
 html {
 	height: 100%;
 	font-size: 62.5%;
+	background-color: #F0F0F0;
 }
 body {
 	margin: 0;
     padding: 0;
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+body.fade-out {
+	opacity: 0;
+	transition: none;
 }
 .temp {
 	z-index: 10;
@@ -42,7 +49,6 @@ body {
     z-index: 0;
     margin: 0;
 }
-
 .square {
 	/* Responsive Square */
 	height: 0;
@@ -60,7 +66,6 @@ body {
 	z-index: 8;
 	opacity: 0.92;
 }
-
 .content {
 	position: absolute;
     height: 90%; /* = 100% - 2*10% padding */
@@ -70,7 +75,6 @@ body {
     vertical-align: middle;
     text-align: center;
 }
-
 .name {
 	font-size: 2.4vw;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -78,7 +82,6 @@ body {
 	margin: 0;
 	padding-top: 7%; 
 }
-
 .title {
 	font-size: 1.6vw;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -88,12 +91,10 @@ body {
 	padding-bottom: 8%;
 	border-bottom: 1px solid #E8E8E8;
 }
-
 .centimg {
 	width: 100%;
 	height: auto;
 }
-
 /* Position buttons in bottom of square */
 .wrapper {
   position: absolute;
@@ -103,15 +104,10 @@ body {
   width: 30vw;
   font-size: .8vw;
 }
-
 /* Style the Un-order list by setting its list-style to none */
 .wrapper ul {
   list-style: none;
 }
-
-/* Style the list items inside the UL list, by setting its width, height and line-height 
-  and float them to left and set its border and border-radius.
- */
  .wrapper ul li {
   width: 2.6vw; /* adjust width of icon circle */
   height: 2.6vw; /* adjust height of icon circle */
@@ -127,54 +123,44 @@ body {
   overflow: hidden;
   display: inline;
 }
-
-/* Style the icons by setting its color and margin-top value to 20px 
-to align it properly */
 .wrapper ul li .fa {
   color: #D8E2DC;
   margin: .4vw auto;
   transition: all 0.5s ease;
 } 
-
 /* instagram */
 .wrapper ul li:hover.instagram {
   border: 2px solid #E705C5;
   box-shadow: 0 0 5px #E705C5;
   transition: all 0.5s ease;
 }
-
 .wrapper ul li:hover .fa-instagram {
   color: #E705C5;
   text-shadow: 0 0 5px #E705C5;
   transition: all 0.5s ease;
 }
-
 /* github */
 .wrapper ul li:hover.github {
   border: 2px solid #9E9E9E;
   box-shadow: 0 0 5px #9E9E9E;
   transition: all 0.5s ease;
 }
-
 .wrapper ul li:hover .fa-github {
   color: #9E9E9E;
   text-shadow: 0 0 5px #9E9E9E;
   transition: all 0.5s ease;
 }
-
 /* linkedin */
 .wrapper ul li:hover.linkedin {
   border: 2px solid #0FACF1;
   box-shadow: 0 0 5px #0FACF1;
   transition: all 0.5s ease;
 }
-
 .wrapper ul li:hover .fa-linkedin {
   color: #0FACF1;
   text-shadow: 0 0 5px #0FACF1;
   transition: all 0.5s ease;
 }
-
 #particles-js {
 	position: absolute;
 	height: 150vw;
@@ -182,7 +168,6 @@ to align it properly */
 	z-index: 1;
 	opacity: 0.65;
 }
-
 .nav-button {
 	padding-left: .3vw;
 	padding-top: .3vw;
@@ -190,7 +175,6 @@ to align it properly */
 	z-index: 9;
 	font-size: 3vw;
 }
-
 .side-nav {
 	height: 100%;
 	width: 0;
@@ -204,7 +188,6 @@ to align it properly */
 	padding-top: .5vw;
 	transition: 0.8s;
 }
-
 .side-nav a {
 	padding: 0vw 1vw 2vw 2.1vw;
 	text-decoration: none;
@@ -216,11 +199,9 @@ to align it properly */
 	margin: 0 0 2vw 0;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
-
 .side-nav a:hover {
 	color: #2BCFBB;
 }
-
 .side-nav .btn-close {
 	position: relative;
 	top: 0vw;
@@ -229,7 +210,6 @@ to align it properly */
 	margin-left: .1vw;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
-
 .footer {
 	z-index: 10;
 	width: 100%;
@@ -240,7 +220,6 @@ to align it properly */
 	position: fixed;
 	opacity: 0.9;
 }
-
 .footer .mylogo {
 	width: 4vw;
 	height: 4vw;
@@ -249,7 +228,6 @@ to align it properly */
 	position: relative;
 	background-color: #FDFDFD;
 }
-
 .about_layout {
 	z-index: 7;
 	position: relative;
@@ -427,7 +405,6 @@ to align it properly */
 	position: relative;
 	height: 20vw;
 }
-
 .interests_img_wrap img {
 	height: 12vw;
 	width: 12vw;
@@ -503,7 +480,6 @@ to align it properly */
 	visibility: hidden;
 	opacity: 0;
 }
-
 /*Small Laptops*/
 @media only screen 
 and (min-device-width : 1024px) 
@@ -518,7 +494,6 @@ and (max-device-width : 1232px) {
 	    left: 24vw;
 	}
 }
-
 /*Medium Laptops*/
 @media only screen 
 and (min-device-width : 1233px) 
@@ -530,7 +505,6 @@ and (max-device-width : 1440px) {
 		margin: 0.5% 8% 0 8%;
 	}
 }
-
 /*Large laptops*/
 @media only screen 
 and (min-device-width : 1441px) 
@@ -542,7 +516,6 @@ and (max-device-width : 2560px) {
 	    left: 2vw;
 	}
 }
-
 /*Tablets*/
 @media only screen 
 and (min-device-width : 701px) 
@@ -554,7 +527,6 @@ and (max-device-width : 1023px) {
 	    left: 23vw;
 	}
 }
-
 /*Small Mobile*/
 @media only screen 
 and (min-device-width : 300px) 
@@ -628,7 +600,6 @@ and (max-device-width : 330px) {
 	    left: 16vw;
 	}
 }
-
 /*Medium & Large Mobile*/
 @media only screen 
 and (min-device-width : 331px) 
@@ -706,4 +677,3 @@ and (max-device-width : 700px) {
 	    left: 18vw;
 	}
 }
-
