@@ -794,7 +794,7 @@ and (max-device-width : 700px) {
 		padding: 4vw 0;
 	}
 	.myprof {
-		top: 11.6vw;
+		top: 12.2vw;
 		width: 30vw;
 		height: 30vw;
 		left: 35vw;
@@ -819,7 +819,7 @@ and (max-device-width : 700px) {
 	}
 	.about_temp {
 		width: 85vw;
-		height: 68vw;
+		height: 75vw;
 		border-radius: 1vw;
 		left: 8vw;
 		top: 50vw;
@@ -832,50 +832,51 @@ and (max-device-width : 700px) {
 	}
 	.about_content , .about_skills , .about_interests {
 		height: 6vw;
-		width: 26.5vw;
+		width: 28vw;
 		border-width: 0 0 .3vw 0;
-		font-size: 4.5vw;
+		font-size: 4vw;
+		text-align: center;
 	}
 	.about_content {
-		left: 37vw;
+		left: 36.5vw;
 		top: 37.5vw;
 	}
 	.about_skills {
-		left: 8.5vw;
+		left: 7.5vw;
 		top: 37.5vw;
 	}
 	.about_interests {
-		left: 65.5vw;
+		left: 66vw;
 		top: 37.5vw;
 	}
 	#linktoskills {
-		top: 120vw;
+		top: 130vw;
 	}
 	.skills_temp {
-		top: 158vw;
+		top: 168vw;
 		height: 14vw;
 		width: 85vw;
 		left: 7.5vw;
 		border-radius: 1vw;
 	}
 	.about_skills_list {
-		top: 155vw;
+		top: 165vw;
 		font-size: 5.5vw;
 	}
 	.about_skills_list ul {
 		font-size: 4vw;
 	    column-gap: 3.5vw;
-	    left: 2vw;
+	    left: 0vw;
 	}
 	.about_interests_link {
 		width: 85vw;
 		height: 70vw;
 		border-radius: 1vw;
-		top: 278vw;
+		top: 293vw;
 		left: 7.5vw;
 	}
 	#linktointerests {
-		top: 250vw;
+		top: 265vw;
 		height: 120vw;
 	}
 	.interests_img_wrap img {
