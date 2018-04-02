@@ -28,21 +28,20 @@
 			<a href="portfolio.html" class="nav-links">Portfolio</a>
 			<a href="contact.html" class="nav-links">Contact</a>
 		</div>
-		<script type="text/javascript" src="script.js"></script>
-		<noscript>Sorry, your browswer does not support JavaScript</noscript>
 
 		<div id="particles-js"></div>
-		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-		<noscript>Sorry, your browswer does not support JavaScript</noscript>
-		<script>
-			particlesJS.load('particles-js', 'particles.json', function(){
-				console.log('particles.json loaded...');
-			});
-		</script>
-		<noscript>Sorry, your browswer does not support JavaScript</noscript>
-	</div>
-	<div class="temp">
-		<h1>Coming Soon!</h1>
+		
+		<form class="form" method="post" action="index.php">
+			<p>Contact Me</p>
+			<input name="name" placeholder="Name">
+			<input name="email" type="email" placeholder="Email">
+			<input name="subject" placeholder="Subject">
+			<textarea name="message" placeholder="Message"></textarea>
+			<input id="submit" name="submit" type="submit" value="SEND">
+		</form>
+
+		<div id="map"></div>
+
 	</div>
 </body>
 <footer class="footer">
@@ -68,5 +67,8 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-116094593-1');
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBip_gkrsK4Efph6HbiWjLVlvQ5RUTuUME&callback=initMap">
 </script>
 </html>
