@@ -500,7 +500,7 @@ body.fade-out {
 	width: 3.5vw;
 }
 .form {
-	left: 16.5vw;
+	left: 12vw;
 	position: relative;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	z-index: 8;
@@ -546,12 +546,20 @@ body.fade-out {
 .form input:focus, .form textarea:focus {
 	border: 0.1vw solid #97d6eb;
 }
-#map {
-	left: 52vw;
+#map, #map_overlay {
+	left: 50vw;
 	top: 5vw;
 	width: 45vw;
 	height: 41vw;
 	position: absolute;
+}
+#map_overlay {
+	z-index: 9;
+	opacity: 0.15;
+	background-color: #60CCD1;
+	pointer-events: none;
+}
+#map {
 	z-index: 8;
 }
 /*Small Laptops*/

@@ -1,7 +1,8 @@
+// Fade in transition
 $(function() {
     $('body').removeClass('fade-out');
 });
-
+// Nav bar
 function openNav() {
 	if (window.screen.width <=  667) {
 		document.getElementById('side-menu').style.width = '100vw';		
@@ -14,7 +15,7 @@ function openNav() {
 function closeNav() {
 	document.getElementById('side-menu').style.width = '0';
 }
-
+// Text rotate
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -71,11 +72,11 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #60CCD1}";
         document.body.appendChild(css);
     };
-
+// Map function
 function initMap() {
     var uluru = {lat: 42.347253, lng: -71.082508};
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 4,
+      zoom: 7,
       center: uluru
     });
     var marker = new google.maps.Marker({
