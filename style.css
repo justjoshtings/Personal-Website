@@ -500,33 +500,33 @@ body.fade-out {
 	width: 3.5vw;
 }
 .form {
-	left: 12vw;
+	left: 11vw;
 	position: relative;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	z-index: 8;
 }
 .form p {
-	font-size: 3.5vw;
+	font-size: 4vw;
 	margin-left: 0.6vw;
-	margin-top: 0.5vw;
-	font-weight: bold;
+	margin-top: 0.65vw;
+	margin-bottom: -0.3vw;
 	opacity: 0.7;
 }
 .form input, .form textarea {
 	display: block;
-	margin-top: 1vw;
+	margin-top: 1.8vw;
 	font-size: 1vw;
-	border: 0.1vw solid grey;
+	border: 0.15vw solid grey;
 	padding: 1vw;
 	letter-spacing: 0.1vw;
 	border-radius: 0.2vw;
 	-moz-border-radius: 0.2vw;
     -webkit-border-radius: 0.2vw;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 #submit {
 	width: 5vw;
-	margin: 1vw 0 0 25vw;
+	margin: 1vw 0 0 30vw;
 	border-radius: 0.5vw;
 	cursor: pointer;
 	opacity: 0.9;
@@ -536,21 +536,37 @@ body.fade-out {
 	color: white;
 }
 .form input {
-	width: 30vw;
+	width: 35vw;
 	height: 3.5vw;
 }
 .form textarea {
-	width: 30vw;
-	height: 12vw;
+	width: 35vw;
+	height: 14vw;
 }
 .form input:focus, .form textarea:focus {
-	border: 0.1vw solid #97d6eb;
+	border: .3vw solid #60CCD1;
+}
+#thank_you {
+	height: 30vw;
+	width: 85vw;
+	opacity: 0.85;
+	background-color: white;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 1vw;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+#thank_you p {
+	font-size: 4vw;
+	text-align: center;
+	padding: 8vw;
+	letter-spacing: 0.01vw;
 }
 #map, #map_overlay {
-	left: 50vw;
+	left: 53vw;
 	top: 5vw;
-	width: 45vw;
-	height: 41vw;
+	width: 43vw;
+	height: 40vw;
 	position: absolute;
 }
 #map_overlay {
@@ -804,6 +820,51 @@ and (max-device-width : 330px) {
 	.interests_img_wrap #blockchain_text {
 		left: 18vw;
 	}
+	#map, #map_overlay {
+		left: 10vw;
+		top: 100vw;
+		width: 80vw;
+		height: 70vw;
+		border-radius: 1vw;
+	}
+	.form p {
+		font-size: 8vw;
+		margin-left: 0.6vw;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+	}
+	.form input, .form textarea {
+		margin-top: 3vw;
+		font-size: 3.5vw;
+		padding: 1vw;
+		letter-spacing: 0.25vw;
+		border-radius: 1vw;
+		-moz-border-radius: 1vw;
+	    -webkit-border-radius: 1vw;
+	}
+	#submit {
+		width: 15vw;
+		margin: 3.5vw 0 0 65vw;
+	}
+	.form input {
+		width: 80vw;
+		height: 8vw;
+	}
+	.form textarea {
+		width: 80vw;
+		height: 25vw;
+	}
+	#thank_you {
+		height: 90vw;
+		width: 85vw;
+		margin: 15vw auto;
+		border-radius: 2vw;
+	}
+	#thank_you p {
+		font-size: 9vw;
+		padding: 25vw 1vw;
+		letter-spacing: 0.01vw;
+	}
 }
 /*Medium & Large Mobile*/
 @media only screen 
@@ -1004,5 +1065,50 @@ and (max-device-width : 700px) {
 	}
 	.interests_img_wrap #blockchain_text {
 		left: 18vw;
+	}
+	#map, #map_overlay {
+		left: 10vw;
+		top: 80vw;
+		width: 80vw;
+		height: 50vw;
+		border-radius: 0.7vw;
+	}
+	.form p {
+		font-size: 8vw;
+		margin-left: 0.6vw;
+		margin-top: -1vw;
+		margin-bottom: 2vw;
+	}
+	.form input, .form textarea {
+		margin-top: 3vw;
+		font-size: 2.5vw;
+		padding: 1vw;
+		letter-spacing: 0.25vw;
+		border-radius: 0.7vw;
+		-moz-border-radius: 0.7vw;
+	    -webkit-border-radius: 0.7vw;
+	}
+	#submit {
+		width: 10vw;
+		margin: 3.5vw 0 0 70vw;
+	}
+	.form input {
+		width: 80vw;
+		height: 5vw;
+	}
+	.form textarea {
+		width: 80vw;
+		height: 20vw;
+	}
+	#thank_you {
+		height: 90vw;
+		width: 85vw;
+		margin: 15vw auto;
+		border-radius: 2vw;
+	}
+	#thank_you p {
+		font-size: 7vw;
+		padding: 25vw 1vw;
+		letter-spacing: 0.01vw;
 	}
 }
