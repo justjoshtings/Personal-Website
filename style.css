@@ -379,7 +379,7 @@ body.fade-out {
     position: absolute;
     left: 25vw;
 }
-#Python:hover, #MATLAB:hover, #JavaScript:hover, #HTML5:hover, #CSS3:hover, #JSON:hover, #Git:hover, #COMSOL:hover, #PTC_Creo:hover, #SolidWorks:hover, #Django:hover, #FlexSim:hover, #AutoCAD:hover, #jQuery:hover, #Bash:hover{
+#Python:hover, #MATLAB:hover, #JavaScript:hover, #HTML5:hover, #CSS3:hover, #JSON:hover, #Git:hover, #COMSOL:hover, #PTC_Creo:hover, #SolidWorks:hover, #Django:hover, #SQLite:hover, #AutoCAD:hover, #jQuery:hover, #Bash:hover{
 	color: white;
 	text-shadow: 0 0 2px white;
 	transition: all 0.3s ease;
