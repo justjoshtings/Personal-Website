@@ -321,7 +321,7 @@ body.fade-out {
 	border-bottom-color: #60CCD1;
 	opacity: 0.8;
 }
-.about_content , .about_skills , .about_interests {
+.about_content, .about_skills, .about_interests {
 	position: absolute;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -421,7 +421,7 @@ body.fade-out {
 .interests_img_wrap img:hover {
 	opacity: 1;
 }
-.interests_img_wrap #web_dev_wrap:hover #web_dev_text {
+.interests_img_wrap #analytics_wrap:hover #analytics_text {
 	visibility: visible;
 	opacity: 1;
 }
@@ -441,8 +441,8 @@ body.fade-out {
 	visibility: visible;
 	opacity: 1;
 }
-.interests_img_wrap #web_dev {
-	left: 2vw;
+.interests_img_wrap #analytics {
+	left: 1.5vw;
 }
 .interests_img_wrap #machine_learning {
 	left: 15vw;
@@ -461,8 +461,8 @@ body.fade-out {
 	top: 16vw;
 	font-size: 6vw;
 }
-.interests_img_wrap #web_dev_text {
-	left: 8.75vw;
+.interests_img_wrap #analytics_text {
+	left: 3vw;
 	visibility: hidden;
 	opacity: 0;
 }
@@ -784,9 +784,9 @@ and (max-device-width : 330px) {
 		height: 20vw;
 		width: 20vw;
 	}
-	.interests_img_wrap #web_dev {
+	.interests_img_wrap #analytics {
 		top: 4vw;
-		left: 4vw;
+		left: 7vw;
 	}
 	.interests_img_wrap #machine_learning {
 		top: 4vw;
@@ -808,8 +808,9 @@ and (max-device-width : 330px) {
 		top: 45vw;
 		font-size: 8vw;
 	}
-	.interests_img_wrap #web_dev_text {
-		left: 7vw;
+	.interests_img_wrap #analytics_text {
+		left: 4vw;
+		top: 42vw;
 	}
 	.interests_img_wrap #ramen_text {
 		left: 25vw;
@@ -1027,12 +1028,12 @@ and (max-device-width : 700px) {
 		height: 120vw;
 	}
 	.interests_img_wrap img {
-		height: 20vw;
-		width: 20vw;
+		height: 21vw;
+		width: 21vw;
 	}
-	.interests_img_wrap #web_dev {
-		top: 4vw;
-		left: 4vw;
+	.interests_img_wrap #analytics {
+		top: 4.5vw;
+		left: 6vw;
 	}
 	.interests_img_wrap #machine_learning {
 		top: 4vw;
@@ -1054,8 +1055,9 @@ and (max-device-width : 700px) {
 		top: 45vw;
 		font-size: 8vw;
 	}
-	.interests_img_wrap #web_dev_text {
-		left: 7vw;
+	.interests_img_wrap #analytics_text {
+		left: 2vw;
+		top: 42.5vw;
 	}
 	.interests_img_wrap #ramen_text {
 		left: 25vw;
