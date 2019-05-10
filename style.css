@@ -106,7 +106,7 @@ body.fade-out {
   position: absolute;
   top: 92%;
   left: 50%;  
-  transform: translate(-48%, -50%);
+  transform: translate(-48%, -80%);
   width: 30vw;
   font-size: .8vw;
 }
@@ -283,10 +283,10 @@ body.fade-out {
 }
 .about_temp {
 	width: 70vw;
-	height: 25vw;
+	height: 12.5vw;
 	border-radius: .7vw;
 	left: 15vw;
-	top: 22.5vw;
+	top: 25vw;
 	background-color: #F4F4F4;
 	position: absolute;
 	opacity: 0.9;
@@ -334,7 +334,7 @@ body.fade-out {
 	border-bottom-color: white;
 	background-color: transparent;
 	overflow: hidden;
-	font-size: 2.8vw;
+	font-size: 2.25vw;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 .about_content {
@@ -379,7 +379,7 @@ body.fade-out {
     position: absolute;
     left: 25vw;
 }
-#Python:hover, #MATLAB:hover, #JavaScript:hover, #HTML5:hover, #CSS3:hover, #JSON:hover, #Git:hover, #COMSOL:hover, #PTC_Creo:hover, #SolidWorks:hover, #Django:hover, #SQLite:hover, #TensorFlow:hover, #jQuery:hover, #Bash:hover{
+#Python:hover, #MATLAB:hover, #SQL:hover, #R:hover, #PowerBI:hover, #PyTorch:hover, #TensorFlow:hover, #Keras:hover, #sklearn:hover, #MongoDB:hover, #HTML:hover, #CSS:hover, #Git:hover, #Django:hover, #Bash:hover{
 	color: white;
 	text-shadow: 0 0 2px white;
 	transition: all 0.3s ease;
