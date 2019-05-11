@@ -299,6 +299,10 @@ body.fade-out {
 	margin: 1.9vw;
 	line-height: 1.6;
 }
+#Quote{
+	text-align: center;
+	font-style: italic;
+}
 .about_wrapper {
 	position: relative;
 	z-index: 8;
