@@ -282,7 +282,7 @@ body.fade-out {
 	opacity: 0.95;
 }
 .about_temp {
-	width: 85vw;
+	width: 70vw;
 	height: 12.5vw;
 	border-radius: .7vw;
 	left: 15vw;
@@ -631,6 +631,9 @@ and (max-device-width : 1023px) {
 	}
 	.about_skills_list ul {
 	    left: 23vw;
+	}
+	.about_temp {
+		height: 10vw;
 	}
 }
 /*Small Mobile*/
