@@ -6,7 +6,7 @@ This contains all the resources and code for my personal portfolio website. The 
 
 ## Examples
 
-Example Screenshots of Program:
+Example Screenshots of site landing pages:
 ![Example Screenshot](images/screenshot.jpg)
 ![Example Screenshot 2](images/screenshot02.jpg)
 
