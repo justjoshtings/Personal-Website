@@ -383,7 +383,7 @@ body.fade-out {
     position: absolute;
     left: 25vw;
 }
-#Python:hover, #MATLAB:hover, #SQL:hover, #R:hover, #PowerBI:hover, #PyTorch:hover, #TensorFlow:hover, #Keras:hover, #sklearn:hover, #MongoDB:hover, #HTML:hover, #CSS:hover, #Git:hover, #Django:hover, #Bash:hover{
+#Python:hover, #MATLAB:hover, #SQL:hover, #R:hover, #PowerBI:hover, #PyTorch:hover, #TensorFlow:hover, #Keras:hover, #sklearn:hover, #MongoDB:hover, #HTML:hover, #CSS:hover, #Git:hover, #NoSQL:hover, #Bash:hover{
 	color: white;
 	text-shadow: 0 0 2px white;
 	transition: all 0.3s ease;
