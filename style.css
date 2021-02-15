@@ -267,7 +267,7 @@ body.fade-out {
 	height: 13vw;
 	border-radius: 10vw;
 	left: 43.5vw;
-	top: 0vw;
+	top: -0.1vw;
 	background-color: white;
 	position: absolute;
 	z-index: 7;
@@ -377,13 +377,13 @@ body.fade-out {
     -webkit-column-count: 3;
     -webkit-column-gap: 3.5vw;
     column-count: 3;
-    column-gap: 3.5vw;
+    column-gap: 3vw;
     line-height: 1.6;
     display: inline;
     position: absolute;
-    left: 25vw;
+ 
 }
-#Python:hover, #MATLAB:hover, #SQL:hover, #R:hover, #PowerBI:hover, #PyTorch:hover, #TensorFlow:hover, #Keras:hover, #sklearn:hover, #MongoDB:hover, #HTML:hover, #CSS:hover, #Git:hover, #NoSQL:hover, #Bash:hover{
+#Python:hover, #SQL:hover, #PowerBI:hover, #ML:hover, #OOP:hover, #Statistics:hover, #Git:hover, #PyTorch:hover, #sklearn:hover {
 	color: white;
 	text-shadow: 0 0 2px white;
 	transition: all 0.3s ease;
@@ -466,7 +466,7 @@ body.fade-out {
 	font-size: 6vw;
 }
 .interests_img_wrap #analytics_text {
-	left: 3vw;
+	left: 17vw;
 	visibility: hidden;
 	opacity: 0;
 }
@@ -597,7 +597,7 @@ and (max-device-width : 1232px) {
 		margin: 0.5% 8% 0 8%;
 	}
 	.about_skills_list ul {
-	    left: 24vw;
+	    left: 16vw;
 	}
 }
 /*Medium Laptops*/
@@ -619,7 +619,7 @@ and (max-device-width : 2560px) {
 		left: 15vw;
 	}
 	.about_skills_list ul {
-	    left: 26.5vw;
+	    left: 16.5vw;
 	}
 }
 /*Tablets*/
@@ -630,7 +630,7 @@ and (max-device-width : 1023px) {
 		left: 12.9vw;
 	}
 	.about_skills_list ul {
-	    left: 23vw;
+	    left: 15vw;
 	}
 	.about_temp {
 		height: 10vw;
@@ -648,7 +648,7 @@ and (max-device-width : 330px) {
 		top: 75vw;
 	}
 	.wrapper {
-		font-size: 1.5vw;
+		font-size: 1vw;
 	}
 	.wrapper ul li{
 		margin: 2% 2.2% 0 2.2%;
@@ -728,13 +728,13 @@ and (max-device-width : 330px) {
 	}
 	.about_temp {
 		width: 85vw;
-		height: 26vw;
+		height: 38vw;
 		border-radius: 1vw;
 		left: 8vw;
 		top: 50vw;
 	}
 	.about_temp p{
-		font-size: 3.1vw;
+		font-size: 3vw;
 	}
 	.about_wrapper {
 		font-size: 9vw;
@@ -769,12 +769,12 @@ and (max-device-width : 330px) {
 	}
 	.about_skills_list {
 		top: 215vw;
-		font-size: 5.5vw;
+		font-size: 5vw;
 	}
 	.about_skills_list ul {
-		font-size: 4vw;
-	    column-gap: 3.5vw;
-	    left: 0vw;
+		font-size: 2vw;
+	    column-gap: 5vw;
+	    left: 5vw;
 	}
 	.about_interests_link {
 		width: 85vw;
@@ -971,6 +971,7 @@ and (max-device-width : 700px) {
 		height: 32vw;
 		border-radius: 30vw;
 		left: 33.8vw;
+		top: 0.5vw;
 	}
 	.about_temp {
 		width: 85vw;
@@ -1016,12 +1017,12 @@ and (max-device-width : 700px) {
 	}
 	.about_skills_list {
 		top: 165vw;
-		font-size: 5.5vw;
+		font-size: 4.5vw;
 	}
 	.about_skills_list ul {
-		font-size: 4vw;
+		font-size: 3vw;
 	    column-gap: 3.5vw;
-	    left: 0vw;
+	    left: -3.5vw;
 	}
 	.about_interests_link {
 		width: 85vw;

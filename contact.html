@@ -25,26 +25,23 @@
 			<a href="#" class="btn-close" onclick="closeNav()">&times;</a>
 			<a href="index.html" class="nav-links">Home</a>
 			<a href="about.html" class="nav-links">About</a>
-			<a href="portfolio.html" class="nav-links">Portfolio</a>
+			<!-- <a href="portfolio.html" class="nav-links">Portfolio</a> -->
 			<a href="contact.html" class="nav-links">Contact</a>
 		</div>
 
 		<div id="particles-js"></div>
 		
-		<form class="form" method="POST" id="contact_form">
+		<form class='form' action="https://formspree.io/f/xgepbaan" method="POST">
 			<p>Contact Me</p>
-			<input name="name" placeholder="Name">
-			<input name="_replyto" type="email" placeholder="Email">
+			<input type="text" name="name" placeholder="Name">
+			<input type="email" name="_replyto" placeholder="Email">
 			<input name="_subject" placeholder="Subject">
 			<textarea name="message" placeholder="Message"></textarea>
-			<input id="submit" name="submit" type="submit" value="SEND">
 			<input type="hidden" name="_next" value="//joshting.com/thankyou.html"/>
 			<input type="text" name="_gotcha" style="display:none" />
+
+			<button type="submit" id="submit">Send</button>
 		</form>
-		<script>
-		    var contactform =  document.getElementById('contact_form');
-		    contactform.setAttribute('action', 'https://formspree.io/' + 'joshting1' + '@' + 'gmail' + '.' + 'com');
-		</script>
 
 		<div id="map"></div>
 		<div id="map_overlay"></div>
@@ -57,15 +54,15 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
-<noscript>Sorry, your browswer does not support JavaScript</noscript>
+<noscript>Sorry, your browser does not support JavaScript</noscript>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-<noscript>Sorry, your browswer does not support JavaScript</noscript>
+<noscript>Sorry, your browser does not support JavaScript</noscript>
 <script>
 	particlesJS.load('particles-js', 'particles.json', function(){
 		console.log('particles.json loaded...');
 	});
 </script>
-<noscript>Sorry, your browswer does not support JavaScript</noscript>
+<noscript>Sorry, your browser does not support JavaScript</noscript>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116094593-1"></script>
 <script>
