@@ -381,6 +381,7 @@ body.fade-out {
     line-height: 1.6;
     display: inline;
     position: absolute;
+	left: 16vw;
  
 }
 #Python:hover, #SQL:hover, #PowerBI:hover, #ML:hover, #OOP:hover, #Statistics:hover, #Git:hover, #PyTorch:hover, #sklearn:hover {
